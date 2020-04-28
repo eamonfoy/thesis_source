@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 19000,
+    "errorCount" : 12967,
+    "errorPct" : 68.24737,
+    "meanResTime" : 807.9757894736805,
+    "minResTime" : 0.0,
+    "maxResTime" : 20007.0,
+    "pct1ResTime" : 3372.0,
+    "pct2ResTime" : 3698.9500000000007,
+    "pct3ResTime" : 4472.910000000014,
+    "throughput" : 31.45070515791565,
+    "receivedKBytesPerSec" : 106.20486882003989,
+    "sentKBytesPerSec" : 4.218542440864398
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 190,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 907.463157894737,
+    "minResTime" : 167.0,
+    "maxResTime" : 3934.0,
+    "pct1ResTime" : 2066.8,
+    "pct2ResTime" : 2686.6499999999996,
+    "pct3ResTime" : 3710.140000000001,
+    "throughput" : 3.026875467970878,
+    "receivedKBytesPerSec" : 3.8752282602634973,
+    "sentKBytesPerSec" : 0.6739527409153908
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 38190,
+    "errorCount" : 25874,
+    "errorPct" : 67.75072,
+    "meanResTime" : 896.248075412413,
+    "minResTime" : 0.0,
+    "maxResTime" : 20008.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 108.0,
+    "throughput" : 62.59516710893591,
+    "receivedKBytesPerSec" : 213.72586459933112,
+    "sentKBytesPerSec" : 8.444566721260557
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 19000,
+    "errorCount" : 12907,
+    "errorPct" : 67.93158,
+    "meanResTime" : 984.4082105263186,
+    "minResTime" : 0.0,
+    "maxResTime" : 20008.0,
+    "pct1ResTime" : 3371.0,
+    "pct2ResTime" : 3742.9500000000007,
+    "pct3ResTime" : 5620.930000000011,
+    "throughput" : 31.465288818229993,
+    "receivedKBytesPerSec" : 109.28849309730226,
+    "sentKBytesPerSec" : 4.241707240328564
+  }
+}

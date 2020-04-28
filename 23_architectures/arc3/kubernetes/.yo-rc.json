@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": ["aodb", "flight", "weather"],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": false,
+    "dockerRepositoryName": "eamonfoy",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "aodb",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": "192.168.50.240.nip.io",
+    "istio": true,
+    "jwtSecretKey": "ZTk2OGZmYjE3OTFhMTg0Y2YyMjcyMjY3ZDI3ODM0MDZkM2FmYTEzZDM3ODcyNjRkOWNmOGU4MmY2NjU3Yjg3M2FhYWQyMjIwZmY3ODQ0Nzc5ZjFkNmZmODI0NTFjMDliMTQ3ZA=="
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 10,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 174.70000000000002,
+    "minResTime" : 157.0,
+    "maxResTime" : 210.0,
+    "pct1ResTime" : 206.70000000000002,
+    "pct2ResTime" : 210.0,
+    "pct3ResTime" : 210.0,
+    "throughput" : 0.16649462222370218,
+    "receivedKBytesPerSec" : 0.21624789800539443,
+    "sentKBytesPerSec" : 0.03707106822949619
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 110,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 36.20909090909093,
+    "minResTime" : 14.0,
+    "maxResTime" : 210.0,
+    "pct1ResTime" : 30.900000000000006,
+    "pct2ResTime" : 175.45,
+    "pct3ResTime" : 206.37,
+    "throughput" : 1.303688252583673,
+    "receivedKBytesPerSec" : 5.159661070683606,
+    "sentKBytesPerSec" : 0.5148087133782118
+  },
+  "HTTP Request - Get Weathers" : {
+    "transaction" : "HTTP Request - Get Weathers",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 22.359999999999996,
+    "minResTime" : 14.0,
+    "maxResTime" : 31.0,
+    "pct1ResTime" : 27.0,
+    "pct2ResTime" : 28.0,
+    "pct3ResTime" : 30.989999999999995,
+    "throughput" : 1.2045725574279966,
+    "receivedKBytesPerSec" : 5.087672178589927,
+    "sentKBytesPerSec" : 0.4964156437838033
+  }
+}

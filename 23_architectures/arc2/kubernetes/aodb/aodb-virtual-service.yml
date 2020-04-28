@@ -1,0 +1,17 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: aodb-virtualservice
+  namespace: aodb
+spec:
+  hosts:
+    - aodb
+  http:
+    - route:
+        - destination:
+            host: aodb
+            subset: 'v1'
+          weight: 100
+      retries:
+        attempts: 3
+        perTryTimeout: 2s

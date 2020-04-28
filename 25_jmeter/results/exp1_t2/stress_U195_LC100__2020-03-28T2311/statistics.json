@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 19500,
+    "errorCount" : 13592,
+    "errorPct" : 69.70256,
+    "meanResTime" : 738.0041538461531,
+    "minResTime" : 0.0,
+    "maxResTime" : 6685.0,
+    "pct1ResTime" : 3153.0,
+    "pct2ResTime" : 4030.0,
+    "pct3ResTime" : 4995.970000000005,
+    "throughput" : 32.717901222139446,
+    "receivedKBytesPerSec" : 106.44255323789773,
+    "sentKBytesPerSec" : 4.180167388767525
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 195,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 963.5794871794868,
+    "minResTime" : 162.0,
+    "maxResTime" : 4203.0,
+    "pct1ResTime" : 1997.0000000000005,
+    "pct2ResTime" : 2729.9999999999977,
+    "pct3ResTime" : 3989.8799999999983,
+    "throughput" : 3.1279575239409056,
+    "receivedKBytesPerSec" : 4.004640931529812,
+    "sentKBytesPerSec" : 0.6964592924399673
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 39195,
+    "errorCount" : 26967,
+    "errorPct" : 68.80215,
+    "meanResTime" : 845.9991580558761,
+    "minResTime" : 0.0,
+    "maxResTime" : 20007.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 2.0,
+    "throughput" : 65.03364925135394,
+    "receivedKBytesPerSec" : 214.13523631578445,
+    "sentKBytesPerSec" : 8.469533702554225
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 19500,
+    "errorCount" : 13375,
+    "errorPct" : 68.589745,
+    "meanResTime" : 952.8183589743604,
+    "minResTime" : 0.0,
+    "maxResTime" : 20007.0,
+    "pct1ResTime" : 3326.9000000000015,
+    "pct2ResTime" : 4206.950000000001,
+    "pct3ResTime" : 11962.010000006721,
+    "throughput" : 32.709284907935945,
+    "receivedKBytesPerSec" : 109.64638157205017,
+    "sentKBytesPerSec" : 4.310365614322306
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "kubernetes",
+    "gatewayType": "zuul",
+    "monitoring": "elk",
+    "directoryPath": "../",
+    "appsFolders": ["aodb", "flight", "weather"],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "eamonfoy",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "istio": false,
+    "jwtSecretKey": "ZDU1MGNmYzUxMTE1MmFiODg2NzUzOWM3M2E0MTE4Mzc0OWNkNzZhOTlkNmM4NGExZjQ1ZWM4ZjZlMzY0ZWNjN2E5NzI2ZjdkZDA5M2JlMmZhYmNmNWNkYmU5MzJlNjE4MTMzZg==",
+    "kubernetesUseDynamicStorage": true,
+    "kubernetesStorageClassName": "managed-nfs-storage"
+  }
+}

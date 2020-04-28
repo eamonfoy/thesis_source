@@ -1,0 +1,39 @@
+{
+  "aodbApp": {
+    "flightArrivalFlight": {
+      "home": {
+        "title": "Arrival Flights",
+        "createLabel": "Create a new Arrival Flight",
+        "createOrEditLabel": "Create or edit a Arrival Flight",
+        "notFound": "No Arrival Flights found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Arrival Flight {{ id }}?"
+      },
+      "detail": {
+        "title": "Arrival Flight"
+      },
+      "actual": "Actual",
+      "estimated": "Estimated",
+      "scheduled": "Scheduled",
+      "city": "City",
+      "aircraft": "Aircraft",
+      "terminal": "Terminal",
+      "duration": "Duration",
+      "tailNumber": "Tail Number",
+      "airportCode": "Airport Code",
+      "airline": "Airline",
+      "flightNumber": "Flight Number",
+      "claim": "Claim",
+      "status": "Status",
+      "statusText": "Status Text"
+    }
+  },
+  "flightApp": {
+    "flightArrivalFlight": {
+      "created": "A new Arrival Flight is created with identifier {{ param }}",
+      "updated": "A Arrival Flight is updated with identifier {{ param }}",
+      "deleted": "A Arrival Flight is deleted with identifier {{ param }}"
+    }
+  }
+}

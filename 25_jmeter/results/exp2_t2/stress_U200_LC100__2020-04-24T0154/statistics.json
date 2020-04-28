@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 20000,
+    "errorCount" : 9232,
+    "errorPct" : 46.16,
+    "meanResTime" : 1971.0809,
+    "minResTime" : 0.0,
+    "maxResTime" : 15955.0,
+    "pct1ResTime" : 4632.800000000003,
+    "pct2ResTime" : 5377.9000000000015,
+    "pct3ResTime" : 9043.980000000003,
+    "throughput" : 23.81720769438712,
+    "receivedKBytesPerSec" : 88.52000169102175,
+    "sentKBytesPerSec" : 10.001366512291465
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 158.2699999999998,
+    "minResTime" : 137.0,
+    "maxResTime" : 602.0,
+    "pct1ResTime" : 165.0,
+    "pct2ResTime" : 168.95,
+    "pct3ResTime" : 292.16000000000076,
+    "throughput" : 3.3306687982946976,
+    "receivedKBytesPerSec" : 4.325966310285105,
+    "sentKBytesPerSec" : 0.7415942246203038
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 40200,
+    "errorCount" : 18373,
+    "errorPct" : 45.70398,
+    "meanResTime" : 1978.1634825870512,
+    "minResTime" : 0.0,
+    "maxResTime" : 15955.0,
+    "pct1ResTime" : 4420.9000000000015,
+    "pct2ResTime" : 5357.0,
+    "pct3ResTime" : 9395.990000000002,
+    "throughput" : 47.73054327331792,
+    "receivedKBytesPerSec" : 178.59556967130635,
+    "sentKBytesPerSec" : 19.949875508769598
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 20000,
+    "errorCount" : 9141,
+    "errorPct" : 45.705,
+    "meanResTime" : 2003.4449999999986,
+    "minResTime" : 1.0,
+    "maxResTime" : 15006.0,
+    "pct1ResTime" : 4656.0,
+    "pct2ResTime" : 5728.750000000004,
+    "pct3ResTime" : 9121.990000000002,
+    "throughput" : 23.822228998322913,
+    "receivedKBytesPerSec" : 90.3167538498211,
+    "sentKBytesPerSec" : 9.956947276642781
+  }
+}

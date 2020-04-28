@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flight
+  namespace: aodb
+  labels:
+    app: flight
+spec:
+  selector:
+    app: flight
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8081
+    - name: hazelcast
+      port: 5701
+      targetPort: 5701
+

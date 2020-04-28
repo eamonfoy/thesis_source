@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 15000,
+    "errorCount" : 3255,
+    "errorPct" : 21.7,
+    "meanResTime" : 1636.0465333333348,
+    "minResTime" : 0.0,
+    "maxResTime" : 9837.0,
+    "pct1ResTime" : 3689.7999999999993,
+    "pct2ResTime" : 4406.899999999998,
+    "pct3ResTime" : 5939.98,
+    "throughput" : 19.79495070397443,
+    "receivedKBytesPerSec" : 105.50395820659067,
+    "sentKBytesPerSec" : 8.312332815145513
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 150,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 157.50666666666663,
+    "minResTime" : 143.0,
+    "maxResTime" : 607.0,
+    "pct1ResTime" : 162.0,
+    "pct2ResTime" : 175.89999999999998,
+    "pct3ResTime" : 425.44000000000324,
+    "throughput" : 2.4979184013322233,
+    "receivedKBytesPerSec" : 3.244366673605329,
+    "sentKBytesPerSec" : 0.5561771440466279
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 30150,
+    "errorCount" : 6396,
+    "errorPct" : 21.21393,
+    "meanResTime" : 1642.6929021558874,
+    "minResTime" : 0.0,
+    "maxResTime" : 9837.0,
+    "pct1ResTime" : 3460.0,
+    "pct2ResTime" : 4165.950000000001,
+    "pct3ResTime" : 5749.0,
+    "throughput" : 39.63303620606024,
+    "receivedKBytesPerSec" : 212.7230238918031,
+    "sentKBytesPerSec" : 16.56537060175174
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 15000,
+    "errorCount" : 3141,
+    "errorPct" : 20.94,
+    "meanResTime" : 1664.1911333333333,
+    "minResTime" : 1.0,
+    "maxResTime" : 9252.0,
+    "pct1ResTime" : 3766.7999999999993,
+    "pct2ResTime" : 4586.899999999998,
+    "pct3ResTime" : 6132.819999999996,
+    "throughput" : 19.79325287595964,
+    "receivedKBytesPerSec" : 107.78365726160017,
+    "sentKBytesPerSec" : 8.272961162998758
+  }
+}

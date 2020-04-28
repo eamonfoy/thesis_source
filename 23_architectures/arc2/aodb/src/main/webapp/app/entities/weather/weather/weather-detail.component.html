@@ -1,0 +1,86 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="weather">
+            <h2><span jhiTranslate="aodbApp.weatherWeather.detail.title">Weather</span> {{ weather.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="aodbApp.weatherWeather.airportCode">Airport Code</span></dt>
+                <dd>
+                    <span>{{ weather.airportCode }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.forecastDate">Forecast Date</span></dt>
+                <dd>
+                    <span>{{ weather.forecastDate }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.dayName">Day Name</span></dt>
+                <dd>
+                    <span>{{ weather.dayName }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.highTemperatureValue">High Temperature Value</span></dt>
+                <dd>
+                    <span>{{ weather.highTemperatureValue }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.lowTemperatureValue">Low Temperature Value</span></dt>
+                <dd>
+                    <span>{{ weather.lowTemperatureValue }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.feelsLikeHighTemperature">Feels Like High Temperature</span></dt>
+                <dd>
+                    <span>{{ weather.feelsLikeHighTemperature }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.feelsLikeLowTemperature">Feels Like Low Temperature</span></dt>
+                <dd>
+                    <span>{{ weather.feelsLikeLowTemperature }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.phrase">Phrase</span></dt>
+                <dd>
+                    <span>{{ weather.phrase }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.probabilityOfPrecip">Probability Of Precip</span></dt>
+                <dd>
+                    <span>{{ weather.probabilityOfPrecip }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.probabilityOfPrecipUnits">Probability Of Precip Units</span></dt>
+                <dd>
+                    <span>{{ weather.probabilityOfPrecipUnits }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.nightPhrase">Night Phrase</span></dt>
+                <dd>
+                    <span>{{ weather.nightPhrase }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.nightIcon">Night Icon</span></dt>
+                <dd>
+                    <span>{{ weather.nightIcon }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.nightProbabilityOfPrecip">Night Probability Of Precip</span></dt>
+                <dd>
+                    <span>{{ weather.nightProbabilityOfPrecip }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.nightProbabilityOfPrecipUnits">Night Probability Of Precip Units</span></dt>
+                <dd>
+                    <span>{{ weather.nightProbabilityOfPrecipUnits }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.weatherWeather.icon">Icon</span></dt>
+                <dd>
+                    <span>{{ weather.icon }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/weather', weather.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

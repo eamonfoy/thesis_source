@@ -1,0 +1,15 @@
+{
+  "generator-jhipster": {
+    "deploymentType": "docker-compose",
+    "gatewayType": "zuul",
+    "monitoring": "no",
+    "directoryPath": "../",
+    "appsFolders": ["aodb", "flight", "weather"],
+    "clusteredDbApps": [],
+    "consoleOptions": [],
+    "serviceDiscoveryType": "eureka",
+    "dockerRepositoryName": "eamonfoy",
+    "dockerPushCommand": "docker push",
+    "jwtSecretKey": "YTIyOWM2YjE5ODllNTk4MGUwYTRiMTRmZTE5ZDFjNzk0NmFlYTdjNWUxYmNhMDhkNDVhNDRhNzg5NDA4ZmJlYWQ5Y2RhOTcyMGZhNDRjYTMxYzRlNWYxZGIyMDk5ODY1OTM1Mg=="
+  }
+}

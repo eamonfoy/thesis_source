@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1147.9597999999892,
+    "minResTime" : 10.0,
+    "maxResTime" : 4841.0,
+    "pct1ResTime" : 2349.0,
+    "pct2ResTime" : 2722.949999999999,
+    "pct3ResTime" : 3455.99,
+    "throughput" : 15.006452774693118,
+    "receivedKBytesPerSec" : 101.45921486473559,
+    "sentKBytesPerSec" : 6.301537786248087
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 167.5200000000001,
+    "minResTime" : 152.0,
+    "maxResTime" : 283.0,
+    "pct1ResTime" : 174.9,
+    "pct2ResTime" : 214.39999999999986,
+    "pct3ResTime" : 282.96,
+    "throughput" : 1.66602802259134,
+    "receivedKBytesPerSec" : 2.1638840527797676,
+    "sentKBytesPerSec" : 0.37095155190510304
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 20100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1151.7234825870648,
+    "minResTime" : 10.0,
+    "maxResTime" : 5673.0,
+    "pct1ResTime" : 2361.0,
+    "pct2ResTime" : 2720.0,
+    "pct3ResTime" : 3429.970000000005,
+    "throughput" : 30.036267672458237,
+    "receivedKBytesPerSec" : 203.50070872656312,
+    "sentKBytesPerSec" : 12.554221253722778
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1165.329200000003,
+    "minResTime" : 10.0,
+    "maxResTime" : 5673.0,
+    "pct1ResTime" : 2366.0,
+    "pct2ResTime" : 2717.0,
+    "pct3ResTime" : 3400.8299999999963,
+    "throughput" : 15.00618254720945,
+    "receivedKBytesPerSec" : 102.70316624355483,
+    "sentKBytesPerSec" : 6.272115361528949
+  }
+}

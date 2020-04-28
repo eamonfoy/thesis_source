@@ -1,0 +1,17 @@
+{
+  "actual": "2020-02-16T18:08:56.685Z",
+  "aircraft": "string",
+  "airline": "string",
+  "airportCode": "string",
+  "city": "string",
+  "claim": "string",
+  "duration": "string",
+  "estimated": "2020-02-16T18:08:56.685Z",
+  "flightNumber": "string",
+  "id": 0,
+  "scheduled": "2020-02-16T18:08:56.685Z",
+  "status": "string",
+  "statusText": "string",
+  "tailNumber": "string",
+  "terminal": "string"
+}

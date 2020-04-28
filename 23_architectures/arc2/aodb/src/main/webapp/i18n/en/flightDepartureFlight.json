@@ -1,0 +1,39 @@
+{
+  "aodbApp": {
+    "flightDepartureFlight": {
+      "home": {
+        "title": "Departure Flights",
+        "createLabel": "Create a new Departure Flight",
+        "createOrEditLabel": "Create or edit a Departure Flight",
+        "notFound": "No Departure Flights found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Departure Flight {{ id }}?"
+      },
+      "detail": {
+        "title": "Departure Flight"
+      },
+      "actual": "Actual",
+      "estimated": "Estimated",
+      "scheduled": "Scheduled",
+      "city": "City",
+      "aircraft": "Aircraft",
+      "terminal": "Terminal",
+      "duration": "Duration",
+      "tailNumber": "Tail Number",
+      "airportCode": "Airport Code",
+      "airline": "Airline",
+      "flightNumber": "Flight Number",
+      "gate": "Gate",
+      "status": "Status",
+      "statusText": "Status Text"
+    }
+  },
+  "flightApp": {
+    "flightDepartureFlight": {
+      "created": "A new Departure Flight is created with identifier {{ param }}",
+      "updated": "A Departure Flight is updated with identifier {{ param }}",
+      "deleted": "A Departure Flight is deleted with identifier {{ param }}"
+    }
+  }
+}

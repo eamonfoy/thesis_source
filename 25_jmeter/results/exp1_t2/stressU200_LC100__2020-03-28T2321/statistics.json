@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 20000,
+    "errorCount" : 14448,
+    "errorPct" : 72.24,
+    "meanResTime" : 749.939849999999,
+    "minResTime" : 0.0,
+    "maxResTime" : 20008.0,
+    "pct1ResTime" : 3199.600000000006,
+    "pct2ResTime" : 4053.800000000003,
+    "pct3ResTime" : 5991.900000000016,
+    "throughput" : 32.503941102858725,
+    "receivedKBytesPerSec" : 102.26909409738587,
+    "sentKBytesPerSec" : 3.877232931875803
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 200,
+    "errorCount" : 3,
+    "errorPct" : 1.5,
+    "meanResTime" : 1282.595,
+    "minResTime" : 163.0,
+    "maxResTime" : 4188.0,
+    "pct1ResTime" : 2583.2000000000003,
+    "pct2ResTime" : 2970.1,
+    "pct3ResTime" : 3891.800000000004,
+    "throughput" : 3.207081235367692,
+    "receivedKBytesPerSec" : 4.113128663088099,
+    "sentKBytesPerSec" : 0.7033655310926525
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 40200,
+    "errorCount" : 28717,
+    "errorPct" : 71.435326,
+    "meanResTime" : 886.2159950248746,
+    "minResTime" : 0.0,
+    "maxResTime" : 20008.0,
+    "pct1ResTime" : 1.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 2.0,
+    "throughput" : 64.55332152532111,
+    "receivedKBytesPerSec" : 205.0000176889349,
+    "sentKBytesPerSec" : 7.833228044443838
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 20000,
+    "errorCount" : 14266,
+    "errorPct" : 71.33,
+    "meanResTime" : 1018.5283499999852,
+    "minResTime" : 0.0,
+    "maxResTime" : 20008.0,
+    "pct1ResTime" : 3381.9000000000015,
+    "pct2ResTime" : 4513.9000000000015,
+    "pct3ResTime" : 16007.0,
+    "throughput" : 32.39910513671612,
+    "receivedKBytesPerSec" : 104.45182625149643,
+    "sentKBytesPerSec" : 3.966474684250471
+  }
+}

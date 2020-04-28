@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 14500,
+    "errorCount" : 440,
+    "errorPct" : 3.0344827,
+    "meanResTime" : 1591.5941379310373,
+    "minResTime" : 0.0,
+    "maxResTime" : 5149.0,
+    "pct1ResTime" : 2596.0,
+    "pct2ResTime" : 2869.949999999999,
+    "pct3ResTime" : 3449.99,
+    "throughput" : 19.21415433868856,
+    "receivedKBytesPerSec" : 124.72590584385253,
+    "sentKBytesPerSec" : 7.88314773316045
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 145,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 316.0206896551724,
+    "minResTime" : 146.0,
+    "maxResTime" : 2030.0,
+    "pct1ResTime" : 831.8000000000003,
+    "pct2ResTime" : 1019.8999999999996,
+    "pct3ResTime" : 1778.8399999999956,
+    "throughput" : 2.3940429606881635,
+    "receivedKBytesPerSec" : 3.0650296108029123,
+    "sentKBytesPerSec" : 0.5330486279657239
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 29145,
+    "errorCount" : 602,
+    "errorPct" : 2.0655344,
+    "meanResTime" : 1607.4230914393595,
+    "minResTime" : 0.0,
+    "maxResTime" : 5290.0,
+    "pct1ResTime" : 2586.0,
+    "pct2ResTime" : 2843.0,
+    "pct3ResTime" : 3441.9600000000064,
+    "throughput" : 38.43703882477221,
+    "receivedKBytesPerSec" : 252.39803004612244,
+    "sentKBytesPerSec" : 15.838069446312772
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 14500,
+    "errorCount" : 162,
+    "errorPct" : 1.1172414,
+    "meanResTime" : 1636.166068965525,
+    "minResTime" : 2.0,
+    "maxResTime" : 5290.0,
+    "pct1ResTime" : 2602.0,
+    "pct2ResTime" : 2887.949999999999,
+    "pct3ResTime" : 3515.0,
+    "throughput" : 19.22100577558084,
+    "receivedKBytesPerSec" : 128.67637464159452,
+    "sentKBytesPerSec" : 7.990563563203306
+  }
+}

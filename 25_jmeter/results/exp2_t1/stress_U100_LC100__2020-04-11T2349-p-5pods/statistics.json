@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1062.495400000002,
+    "minResTime" : 11.0,
+    "maxResTime" : 5067.0,
+    "pct1ResTime" : 2317.8999999999996,
+    "pct2ResTime" : 2643.949999999999,
+    "pct3ResTime" : 3313.9299999999985,
+    "throughput" : 15.393472551899093,
+    "receivedKBytesPerSec" : 104.49485730539573,
+    "sentKBytesPerSec" : 6.464055856754502
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 165.36999999999995,
+    "minResTime" : 148.0,
+    "maxResTime" : 215.0,
+    "pct1ResTime" : 177.9,
+    "pct2ResTime" : 192.64999999999992,
+    "pct3ResTime" : 214.96999999999997,
+    "throughput" : 1.6646136431734193,
+    "receivedKBytesPerSec" : 2.1620470170123514,
+    "sentKBytesPerSec" : 0.3706366314878317
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 20100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1059.9215422885575,
+    "minResTime" : 11.0,
+    "maxResTime" : 5067.0,
+    "pct1ResTime" : 2324.0,
+    "pct2ResTime" : 2659.0,
+    "pct3ResTime" : 3307.0,
+    "throughput" : 30.777193028123616,
+    "receivedKBytesPerSec" : 204.46440093906804,
+    "sentKBytesPerSec" : 12.863904898473542
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 10000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1066.2932000000014,
+    "minResTime" : 11.0,
+    "maxResTime" : 4820.0,
+    "pct1ResTime" : 2332.8999999999996,
+    "pct2ResTime" : 2677.0,
+    "pct3ResTime" : 3306.959999999999,
+    "throughput" : 15.385869924778481,
+    "receivedKBytesPerSec" : 100.80722958227747,
+    "sentKBytesPerSec" : 6.430812820122256
+  }
+}

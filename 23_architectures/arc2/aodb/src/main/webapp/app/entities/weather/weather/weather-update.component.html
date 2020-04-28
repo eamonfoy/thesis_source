@@ -1,0 +1,243 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-weather-heading" jhiTranslate="aodbApp.weatherWeather.home.createOrEditLabel">Create or edit a Weather</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.airportCode" for="field_airportCode">Airport Code</label>
+                    <input type="text" class="form-control" name="airportCode" id="field_airportCode"
+                           formControlName="airportCode"/>
+                    <div *ngIf="editForm.get('airportCode')!.invalid && (editForm.get('airportCode')!.dirty || editForm.get('airportCode')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('airportCode')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.forecastDate" for="field_forecastDate">Forecast Date</label>
+                    <div class="d-flex">
+                        <input id="field_forecastDate" type="datetime-local" class="form-control" name="forecastDate" formControlName="forecastDate" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                    <div *ngIf="editForm.get('forecastDate')!.invalid && (editForm.get('forecastDate')!.dirty || editForm.get('forecastDate')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('forecastDate')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('forecastDate')?.errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                            This field should be a date and time.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.dayName" for="field_dayName">Day Name</label>
+                    <input type="text" class="form-control" name="dayName" id="field_dayName"
+                           formControlName="dayName"/>
+                    <div *ngIf="editForm.get('dayName')!.invalid && (editForm.get('dayName')!.dirty || editForm.get('dayName')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('dayName')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.highTemperatureValue" for="field_highTemperatureValue">High Temperature Value</label>
+                    <input type="number" class="form-control" name="highTemperatureValue" id="field_highTemperatureValue"
+                           formControlName="highTemperatureValue"/>
+                    <div *ngIf="editForm.get('highTemperatureValue')!.invalid && (editForm.get('highTemperatureValue')!.dirty || editForm.get('highTemperatureValue')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('highTemperatureValue')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('highTemperatureValue')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.lowTemperatureValue" for="field_lowTemperatureValue">Low Temperature Value</label>
+                    <input type="number" class="form-control" name="lowTemperatureValue" id="field_lowTemperatureValue"
+                           formControlName="lowTemperatureValue"/>
+                    <div *ngIf="editForm.get('lowTemperatureValue')!.invalid && (editForm.get('lowTemperatureValue')!.dirty || editForm.get('lowTemperatureValue')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('lowTemperatureValue')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('lowTemperatureValue')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.feelsLikeHighTemperature" for="field_feelsLikeHighTemperature">Feels Like High Temperature</label>
+                    <input type="number" class="form-control" name="feelsLikeHighTemperature" id="field_feelsLikeHighTemperature"
+                           formControlName="feelsLikeHighTemperature"/>
+                    <div *ngIf="editForm.get('feelsLikeHighTemperature')!.invalid && (editForm.get('feelsLikeHighTemperature')!.dirty || editForm.get('feelsLikeHighTemperature')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('feelsLikeHighTemperature')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('feelsLikeHighTemperature')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.feelsLikeLowTemperature" for="field_feelsLikeLowTemperature">Feels Like Low Temperature</label>
+                    <input type="number" class="form-control" name="feelsLikeLowTemperature" id="field_feelsLikeLowTemperature"
+                           formControlName="feelsLikeLowTemperature"/>
+                    <div *ngIf="editForm.get('feelsLikeLowTemperature')!.invalid && (editForm.get('feelsLikeLowTemperature')!.dirty || editForm.get('feelsLikeLowTemperature')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('feelsLikeLowTemperature')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('feelsLikeLowTemperature')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.phrase" for="field_phrase">Phrase</label>
+                    <input type="text" class="form-control" name="phrase" id="field_phrase"
+                           formControlName="phrase"/>
+                    <div *ngIf="editForm.get('phrase')!.invalid && (editForm.get('phrase')!.dirty || editForm.get('phrase')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('phrase')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.probabilityOfPrecip" for="field_probabilityOfPrecip">Probability Of Precip</label>
+                    <input type="number" class="form-control" name="probabilityOfPrecip" id="field_probabilityOfPrecip"
+                           formControlName="probabilityOfPrecip"/>
+                    <div *ngIf="editForm.get('probabilityOfPrecip')!.invalid && (editForm.get('probabilityOfPrecip')!.dirty || editForm.get('probabilityOfPrecip')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('probabilityOfPrecip')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('probabilityOfPrecip')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.probabilityOfPrecipUnits" for="field_probabilityOfPrecipUnits">Probability Of Precip Units</label>
+                    <input type="text" class="form-control" name="probabilityOfPrecipUnits" id="field_probabilityOfPrecipUnits"
+                           formControlName="probabilityOfPrecipUnits"/>
+                    <div *ngIf="editForm.get('probabilityOfPrecipUnits')!.invalid && (editForm.get('probabilityOfPrecipUnits')!.dirty || editForm.get('probabilityOfPrecipUnits')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('probabilityOfPrecipUnits')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.nightPhrase" for="field_nightPhrase">Night Phrase</label>
+                    <input type="text" class="form-control" name="nightPhrase" id="field_nightPhrase"
+                           formControlName="nightPhrase"/>
+                    <div *ngIf="editForm.get('nightPhrase')!.invalid && (editForm.get('nightPhrase')!.dirty || editForm.get('nightPhrase')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('nightPhrase')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.nightIcon" for="field_nightIcon">Night Icon</label>
+                    <input type="number" class="form-control" name="nightIcon" id="field_nightIcon"
+                           formControlName="nightIcon"/>
+                    <div *ngIf="editForm.get('nightIcon')!.invalid && (editForm.get('nightIcon')!.dirty || editForm.get('nightIcon')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('nightIcon')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('nightIcon')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.nightProbabilityOfPrecip" for="field_nightProbabilityOfPrecip">Night Probability Of Precip</label>
+                    <input type="number" class="form-control" name="nightProbabilityOfPrecip" id="field_nightProbabilityOfPrecip"
+                           formControlName="nightProbabilityOfPrecip"/>
+                    <div *ngIf="editForm.get('nightProbabilityOfPrecip')!.invalid && (editForm.get('nightProbabilityOfPrecip')!.dirty || editForm.get('nightProbabilityOfPrecip')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('nightProbabilityOfPrecip')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('nightProbabilityOfPrecip')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.nightProbabilityOfPrecipUnits" for="field_nightProbabilityOfPrecipUnits">Night Probability Of Precip Units</label>
+                    <input type="text" class="form-control" name="nightProbabilityOfPrecipUnits" id="field_nightProbabilityOfPrecipUnits"
+                           formControlName="nightProbabilityOfPrecipUnits"/>
+                    <div *ngIf="editForm.get('nightProbabilityOfPrecipUnits')!.invalid && (editForm.get('nightProbabilityOfPrecipUnits')!.dirty || editForm.get('nightProbabilityOfPrecipUnits')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('nightProbabilityOfPrecipUnits')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.weatherWeather.icon" for="field_icon">Icon</label>
+                    <input type="number" class="form-control" name="icon" id="field_icon"
+                           formControlName="icon"/>
+                    <div *ngIf="editForm.get('icon')!.invalid && (editForm.get('icon')!.dirty || editForm.get('icon')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('icon')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('icon')?.errors?.number" jhiTranslate="entity.validation.number">
+                            This field should be a number.
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

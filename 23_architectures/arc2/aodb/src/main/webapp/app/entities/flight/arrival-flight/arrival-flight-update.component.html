@@ -1,0 +1,183 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-arrival-flight-heading" jhiTranslate="aodbApp.flightArrivalFlight.home.createOrEditLabel">Create or edit a Arrival Flight</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.actual" for="field_actual">Actual</label>
+                    <div class="d-flex">
+                        <input id="field_actual" type="datetime-local" class="form-control" name="actual" formControlName="actual" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.estimated" for="field_estimated">Estimated</label>
+                    <div class="d-flex">
+                        <input id="field_estimated" type="datetime-local" class="form-control" name="estimated" formControlName="estimated" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.scheduled" for="field_scheduled">Scheduled</label>
+                    <div class="d-flex">
+                        <input id="field_scheduled" type="datetime-local" class="form-control" name="scheduled" formControlName="scheduled" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                    <div *ngIf="editForm.get('scheduled')!.invalid && (editForm.get('scheduled')!.dirty || editForm.get('scheduled')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('scheduled')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('scheduled')?.errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                            This field should be a date and time.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.city" for="field_city">City</label>
+                    <input type="text" class="form-control" name="city" id="field_city"
+                           formControlName="city"/>
+                    <div *ngIf="editForm.get('city')!.invalid && (editForm.get('city')!.dirty || editForm.get('city')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('city')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.aircraft" for="field_aircraft">Aircraft</label>
+                    <input type="text" class="form-control" name="aircraft" id="field_aircraft"
+                           formControlName="aircraft"/>
+                    <div *ngIf="editForm.get('aircraft')!.invalid && (editForm.get('aircraft')!.dirty || editForm.get('aircraft')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('aircraft')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.terminal" for="field_terminal">Terminal</label>
+                    <input type="text" class="form-control" name="terminal" id="field_terminal"
+                           formControlName="terminal"/>
+                    <div *ngIf="editForm.get('terminal')!.invalid && (editForm.get('terminal')!.dirty || editForm.get('terminal')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('terminal')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.duration" for="field_duration">Duration</label>
+                    <input type="text" class="form-control" name="duration" id="field_duration"
+                           formControlName="duration"/>
+                    <div *ngIf="editForm.get('duration')!.invalid && (editForm.get('duration')!.dirty || editForm.get('duration')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('duration')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.tailNumber" for="field_tailNumber">Tail Number</label>
+                    <input type="text" class="form-control" name="tailNumber" id="field_tailNumber"
+                           formControlName="tailNumber"/>
+                    <div *ngIf="editForm.get('tailNumber')!.invalid && (editForm.get('tailNumber')!.dirty || editForm.get('tailNumber')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('tailNumber')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.airportCode" for="field_airportCode">Airport Code</label>
+                    <input type="text" class="form-control" name="airportCode" id="field_airportCode"
+                           formControlName="airportCode"/>
+                    <div *ngIf="editForm.get('airportCode')!.invalid && (editForm.get('airportCode')!.dirty || editForm.get('airportCode')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('airportCode')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.airline" for="field_airline">Airline</label>
+                    <input type="text" class="form-control" name="airline" id="field_airline"
+                           formControlName="airline"/>
+                    <div *ngIf="editForm.get('airline')!.invalid && (editForm.get('airline')!.dirty || editForm.get('airline')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('airline')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.flightNumber" for="field_flightNumber">Flight Number</label>
+                    <input type="text" class="form-control" name="flightNumber" id="field_flightNumber"
+                           formControlName="flightNumber"/>
+                    <div *ngIf="editForm.get('flightNumber')!.invalid && (editForm.get('flightNumber')!.dirty || editForm.get('flightNumber')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('flightNumber')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.claim" for="field_claim">Claim</label>
+                    <input type="text" class="form-control" name="claim" id="field_claim"
+                           formControlName="claim"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.status" for="field_status">Status</label>
+                    <input type="text" class="form-control" name="status" id="field_status"
+                           formControlName="status"/>
+                    <div *ngIf="editForm.get('status')!.invalid && (editForm.get('status')!.dirty || editForm.get('status')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('status')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="aodbApp.flightArrivalFlight.statusText" for="field_statusText">Status Text</label>
+                    <input type="text" class="form-control" name="statusText" id="field_statusText"
+                           formControlName="statusText"/>
+                    <div *ngIf="editForm.get('statusText')!.invalid && (editForm.get('statusText')!.dirty || editForm.get('statusText')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('statusText')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

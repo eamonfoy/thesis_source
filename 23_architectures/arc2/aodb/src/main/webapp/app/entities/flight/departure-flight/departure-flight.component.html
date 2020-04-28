@@ -1,0 +1,97 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="aodbApp.flightDepartureFlight.home.title">Departure Flights</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-departure-flight" [routerLink]="['/departure-flight/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="aodbApp.flightDepartureFlight.home.createLabel">
+            Create a new Departure Flight
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="departureFlights?.length === 0">
+        <span jhiTranslate="aodbApp.flightDepartureFlight.home.notFound">No departureFlights found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="departureFlights?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="actual"><span jhiTranslate="aodbApp.flightDepartureFlight.actual">Actual</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="estimated"><span jhiTranslate="aodbApp.flightDepartureFlight.estimated">Estimated</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="scheduled"><span jhiTranslate="aodbApp.flightDepartureFlight.scheduled">Scheduled</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="city"><span jhiTranslate="aodbApp.flightDepartureFlight.city">City</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="aircraft"><span jhiTranslate="aodbApp.flightDepartureFlight.aircraft">Aircraft</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="terminal"><span jhiTranslate="aodbApp.flightDepartureFlight.terminal">Terminal</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="duration"><span jhiTranslate="aodbApp.flightDepartureFlight.duration">Duration</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="tailNumber"><span jhiTranslate="aodbApp.flightDepartureFlight.tailNumber">Tail Number</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="airportCode"><span jhiTranslate="aodbApp.flightDepartureFlight.airportCode">Airport Code</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="airline"><span jhiTranslate="aodbApp.flightDepartureFlight.airline">Airline</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="flightNumber"><span jhiTranslate="aodbApp.flightDepartureFlight.flightNumber">Flight Number</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="gate"><span jhiTranslate="aodbApp.flightDepartureFlight.gate">Gate</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="status"><span jhiTranslate="aodbApp.flightDepartureFlight.status">Status</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="statusText"><span jhiTranslate="aodbApp.flightDepartureFlight.statusText">Status Text</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let departureFlight of departureFlights ;trackBy: trackId">
+                    <td><a [routerLink]="['/departure-flight', departureFlight.id, 'view']">{{ departureFlight.id }}</a></td>
+                    <td>{{ departureFlight.actual | date:'medium' }}</td>
+                    <td>{{ departureFlight.estimated | date:'medium' }}</td>
+                    <td>{{ departureFlight.scheduled | date:'medium' }}</td>
+                    <td>{{ departureFlight.city }}</td>
+                    <td>{{ departureFlight.aircraft }}</td>
+                    <td>{{ departureFlight.terminal }}</td>
+                    <td>{{ departureFlight.duration }}</td>
+                    <td>{{ departureFlight.tailNumber }}</td>
+                    <td>{{ departureFlight.airportCode }}</td>
+                    <td>{{ departureFlight.airline }}</td>
+                    <td>{{ departureFlight.flightNumber }}</td>
+                    <td>{{ departureFlight.gate }}</td>
+                    <td>{{ departureFlight.status }}</td>
+                    <td>{{ departureFlight.statusText }}</td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/departure-flight', departureFlight.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/departure-flight', departureFlight.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(departureFlight)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="departureFlights?.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

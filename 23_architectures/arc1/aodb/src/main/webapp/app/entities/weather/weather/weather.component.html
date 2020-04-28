@@ -1,0 +1,99 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="aodbApp.weatherWeather.home.title">Weathers</span>
+
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-weather" [routerLink]="['/weather/new']">
+            <fa-icon icon="plus"></fa-icon>
+            <span  jhiTranslate="aodbApp.weatherWeather.home.createLabel">
+            Create a new Weather
+            </span>
+        </button>
+    </h2>
+
+    <jhi-alert-error></jhi-alert-error>
+
+    <jhi-alert></jhi-alert>
+
+    <div class="alert alert-warning" id="no-result" *ngIf="weathers?.length === 0">
+        <span jhiTranslate="aodbApp.weatherWeather.home.notFound">No weathers found</span>
+    </div>
+
+    <div class="table-responsive" id="entities" *ngIf="weathers?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="airportCode"><span jhiTranslate="aodbApp.weatherWeather.airportCode">Airport Code</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="forecastDate"><span jhiTranslate="aodbApp.weatherWeather.forecastDate">Forecast Date</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="dayName"><span jhiTranslate="aodbApp.weatherWeather.dayName">Day Name</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="highTemperatureValue"><span jhiTranslate="aodbApp.weatherWeather.highTemperatureValue">High Temperature Value</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="lowTemperatureValue"><span jhiTranslate="aodbApp.weatherWeather.lowTemperatureValue">Low Temperature Value</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="feelsLikeHighTemperature"><span jhiTranslate="aodbApp.weatherWeather.feelsLikeHighTemperature">Feels Like High Temperature</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="feelsLikeLowTemperature"><span jhiTranslate="aodbApp.weatherWeather.feelsLikeLowTemperature">Feels Like Low Temperature</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="phrase"><span jhiTranslate="aodbApp.weatherWeather.phrase">Phrase</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="probabilityOfPrecip"><span jhiTranslate="aodbApp.weatherWeather.probabilityOfPrecip">Probability Of Precip</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="probabilityOfPrecipUnits"><span jhiTranslate="aodbApp.weatherWeather.probabilityOfPrecipUnits">Probability Of Precip Units</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="nightPhrase"><span jhiTranslate="aodbApp.weatherWeather.nightPhrase">Night Phrase</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="nightIcon"><span jhiTranslate="aodbApp.weatherWeather.nightIcon">Night Icon</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="nightProbabilityOfPrecip"><span jhiTranslate="aodbApp.weatherWeather.nightProbabilityOfPrecip">Night Probability Of Precip</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="nightProbabilityOfPrecipUnits"><span jhiTranslate="aodbApp.weatherWeather.nightProbabilityOfPrecipUnits">Night Probability Of Precip Units</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="icon"><span jhiTranslate="aodbApp.weatherWeather.icon">Icon</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let weather of weathers ;trackBy: trackId">
+                    <td><a [routerLink]="['/weather', weather.id, 'view']">{{ weather.id }}</a></td>
+                    <td>{{ weather.airportCode }}</td>
+                    <td>{{ weather.forecastDate | date:'medium' }}</td>
+                    <td>{{ weather.dayName }}</td>
+                    <td>{{ weather.highTemperatureValue }}</td>
+                    <td>{{ weather.lowTemperatureValue }}</td>
+                    <td>{{ weather.feelsLikeHighTemperature }}</td>
+                    <td>{{ weather.feelsLikeLowTemperature }}</td>
+                    <td>{{ weather.phrase }}</td>
+                    <td>{{ weather.probabilityOfPrecip }}</td>
+                    <td>{{ weather.probabilityOfPrecipUnits }}</td>
+                    <td>{{ weather.nightPhrase }}</td>
+                    <td>{{ weather.nightIcon }}</td>
+                    <td>{{ weather.nightProbabilityOfPrecip }}</td>
+                    <td>{{ weather.nightProbabilityOfPrecipUnits }}</td>
+                    <td>{{ weather.icon }}</td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/weather', weather.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
+
+                            <button type="submit"
+                                    [routerLink]="['/weather', weather.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
+
+                            <button type="submit" (click)="delete(weather)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div *ngIf="weathers?.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
+
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
+</div>

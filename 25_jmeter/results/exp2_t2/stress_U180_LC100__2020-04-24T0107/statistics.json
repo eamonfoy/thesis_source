@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 18000,
+    "errorCount" : 10762,
+    "errorPct" : 59.788887,
+    "meanResTime" : 1286.7444444444438,
+    "minResTime" : 0.0,
+    "maxResTime" : 9989.0,
+    "pct1ResTime" : 4202.0,
+    "pct2ResTime" : 5206.950000000001,
+    "pct3ResTime" : 6366.980000000003,
+    "throughput" : 26.067236090957277,
+    "receivedKBytesPerSec" : 73.33659354806943,
+    "sentKBytesPerSec" : 10.946202655382448
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 180,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 158.29999999999987,
+    "minResTime" : 140.0,
+    "maxResTime" : 604.0,
+    "pct1ResTime" : 166.0,
+    "pct2ResTime" : 171.95,
+    "pct3ResTime" : 310.7799999999992,
+    "throughput" : 2.99785153972986,
+    "receivedKBytesPerSec" : 3.8936938943756974,
+    "sentKBytesPerSec" : 0.6674903818929767
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 36180,
+    "errorCount" : 21439,
+    "errorPct" : 59.256496,
+    "meanResTime" : 1291.1577667219435,
+    "minResTime" : 0.0,
+    "maxResTime" : 9989.0,
+    "pct1ResTime" : 3470.0,
+    "pct2ResTime" : 3898.0,
+    "pct3ResTime" : 4500.990000000002,
+    "throughput" : 52.192654078687134,
+    "receivedKBytesPerSec" : 148.1262021337426,
+    "sentKBytesPerSec" : 21.81489838445126
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 18000,
+    "errorCount" : 10677,
+    "errorPct" : 59.316666,
+    "meanResTime" : 1306.8996666666712,
+    "minResTime" : 1.0,
+    "maxResTime" : 8937.0,
+    "pct1ResTime" : 4227.9,
+    "pct2ResTime" : 5274.950000000001,
+    "pct3ResTime" : 6447.0,
+    "throughput" : 26.07618592320563,
+    "receivedKBytesPerSec" : 75.0514803781228,
+    "sentKBytesPerSec" : 10.899030835089855
+  }
+}

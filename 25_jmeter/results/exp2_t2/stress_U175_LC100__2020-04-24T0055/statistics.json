@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 17500,
+    "errorCount" : 9406,
+    "errorPct" : 53.748573,
+    "meanResTime" : 1264.372857142869,
+    "minResTime" : 0.0,
+    "maxResTime" : 7764.0,
+    "pct1ResTime" : 3785.0,
+    "pct2ResTime" : 4286.0,
+    "pct3ResTime" : 5419.930000000011,
+    "throughput" : 25.481194150682676,
+    "receivedKBytesPerSec" : 81.86983829497686,
+    "sentKBytesPerSec" : 10.700110824993704
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 175,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 164.61714285714282,
+    "minResTime" : 143.0,
+    "maxResTime" : 653.0,
+    "pct1ResTime" : 171.0,
+    "pct2ResTime" : 200.79999999999984,
+    "pct3ResTime" : 523.0400000000016,
+    "throughput" : 2.9154518950437316,
+    "receivedKBytesPerSec" : 3.786670918367347,
+    "sentKBytesPerSec" : 0.6491435860058309
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 35175,
+    "errorCount" : 18644,
+    "errorPct" : 53.003555,
+    "meanResTime" : 1280.1100497512582,
+    "minResTime" : 0.0,
+    "maxResTime" : 8705.0,
+    "pct1ResTime" : 1440.5000000000073,
+    "pct2ResTime" : 3263.0,
+    "pct3ResTime" : 4814.530000000075,
+    "throughput" : 50.997255499512136,
+    "receivedKBytesPerSec" : 165.961525932485,
+    "sentKBytesPerSec" : 21.31525913456171
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 17500,
+    "errorCount" : 9238,
+    "errorPct" : 52.78857,
+    "meanResTime" : 1307.002171428576,
+    "minResTime" : 1.0,
+    "maxResTime" : 8705.0,
+    "pct1ResTime" : 3831.8999999999996,
+    "pct2ResTime" : 4393.9000000000015,
+    "pct3ResTime" : 6022.0,
+    "throughput" : 25.482789651948778,
+    "receivedKBytesPerSec" : 84.4817913750404,
+    "sentKBytesPerSec" : 10.651009737337965
+  }
+}

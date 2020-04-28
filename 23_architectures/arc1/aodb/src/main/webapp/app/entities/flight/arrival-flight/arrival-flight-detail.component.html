@@ -1,0 +1,82 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="arrivalFlight">
+            <h2><span jhiTranslate="aodbApp.flightArrivalFlight.detail.title">Arrival Flight</span> {{ arrivalFlight.id }}</h2>
+
+            <hr>
+
+            <jhi-alert-error></jhi-alert-error>
+
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.actual">Actual</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.actual }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.estimated">Estimated</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.estimated }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.scheduled">Scheduled</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.scheduled }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.city">City</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.city }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.aircraft">Aircraft</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.aircraft }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.terminal">Terminal</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.terminal }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.duration">Duration</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.duration }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.tailNumber">Tail Number</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.tailNumber }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.airportCode">Airport Code</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.airportCode }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.airline">Airline</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.airline }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.flightNumber">Flight Number</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.flightNumber }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.claim">Claim</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.claim }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.status">Status</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.status }}</span>
+                </dd>
+                <dt><span jhiTranslate="aodbApp.flightArrivalFlight.statusText">Status Text</span></dt>
+                <dd>
+                    <span>{{ arrivalFlight.statusText }}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/arrival-flight', arrivalFlight.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

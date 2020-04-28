@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 10000,
+    "errorCount" : 8,
+    "errorPct" : 0.08,
+    "meanResTime" : 987.6363000000014,
+    "minResTime" : 8.0,
+    "maxResTime" : 4435.0,
+    "pct1ResTime" : 1752.0,
+    "pct2ResTime" : 1986.949999999999,
+    "pct3ResTime" : 2512.99,
+    "throughput" : 15.89281882981175,
+    "receivedKBytesPerSec" : 107.37018764204207,
+    "sentKBytesPerSec" : 6.673742282049855
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 170.38999999999996,
+    "minResTime" : 150.0,
+    "maxResTime" : 283.0,
+    "pct1ResTime" : 182.8,
+    "pct2ResTime" : 214.24999999999983,
+    "pct3ResTime" : 282.7599999999999,
+    "throughput" : 1.664502813009754,
+    "receivedKBytesPerSec" : 2.161903067678684,
+    "sentKBytesPerSec" : 0.37061195445920303
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 20100,
+    "errorCount" : 16,
+    "errorPct" : 0.07960199,
+    "meanResTime" : 985.3152736318352,
+    "minResTime" : 8.0,
+    "maxResTime" : 4435.0,
+    "pct1ResTime" : 1763.0,
+    "pct2ResTime" : 1995.0,
+    "pct3ResTime" : 2478.0,
+    "throughput" : 31.80228786608231,
+    "receivedKBytesPerSec" : 215.30173143729334,
+    "sentKBytesPerSec" : 13.29236250652659
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 10000,
+    "errorCount" : 8,
+    "errorPct" : 0.08,
+    "meanResTime" : 991.1434999999983,
+    "minResTime" : 10.0,
+    "maxResTime" : 3823.0,
+    "pct1ResTime" : 1779.8999999999996,
+    "pct2ResTime" : 2000.949999999999,
+    "pct3ResTime" : 2443.9699999999993,
+    "throughput" : 15.883604942977858,
+    "receivedKBytesPerSec" : 108.62533417615711,
+    "sentKBytesPerSec" : 6.638850503510276
+  }
+}

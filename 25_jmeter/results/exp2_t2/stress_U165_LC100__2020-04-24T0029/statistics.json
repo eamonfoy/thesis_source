@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 16500,
+    "errorCount" : 6510,
+    "errorPct" : 39.454544,
+    "meanResTime" : 1523.3702424242515,
+    "minResTime" : 0.0,
+    "maxResTime" : 9150.0,
+    "pct1ResTime" : 3654.0,
+    "pct2ResTime" : 4463.849999999997,
+    "pct3ResTime" : 6387.0,
+    "throughput" : 22.381894810520304,
+    "receivedKBytesPerSec" : 93.04853504351922,
+    "sentKBytesPerSec" : 9.398647234886456
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 165,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 158.35757575757575,
+    "minResTime" : 141.0,
+    "maxResTime" : 283.0,
+    "pct1ResTime" : 167.0,
+    "pct2ResTime" : 180.79999999999995,
+    "pct3ResTime" : 266.5000000000001,
+    "throughput" : 2.750045834097235,
+    "receivedKBytesPerSec" : 3.5718368743645725,
+    "sentKBytesPerSec" : 0.6123148927482125
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 33165,
+    "errorCount" : 12946,
+    "errorPct" : 39.035126,
+    "meanResTime" : 1523.1934569576406,
+    "minResTime" : 0.0,
+    "maxResTime" : 9150.0,
+    "pct1ResTime" : 3043.0,
+    "pct2ResTime" : 3832.9000000000015,
+    "pct3ResTime" : 5220.990000000002,
+    "throughput" : 44.82332191294829,
+    "receivedKBytesPerSec" : 187.50136076379738,
+    "sentKBytesPerSec" : 18.734747830802604
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 16500,
+    "errorCount" : 6436,
+    "errorPct" : 39.00606,
+    "meanResTime" : 1536.6650303030362,
+    "minResTime" : 1.0,
+    "maxResTime" : 8748.0,
+    "pct1ResTime" : 3714.0,
+    "pct2ResTime" : 4605.899999999998,
+    "pct3ResTime" : 6330.969999999999,
+    "throughput" : 22.38629795755558,
+    "receivedKBytesPerSec" : 94.86801380030472,
+    "sentKBytesPerSec" : 9.35677297444706
+  }
+}

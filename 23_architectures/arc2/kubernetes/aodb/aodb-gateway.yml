@@ -1,0 +1,55 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: aodb-gateway
+  namespace: aodb
+  labels:
+    gateway: aodb-gateway
+    istio: ingressgateway
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - aodb.aodb.192.168.50.240.nip.io
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: aodb-gw-virtualservice
+  namespace: aodb
+  labels:
+    service: aodb-gw-virtualservice
+spec:
+  hosts:
+    - aodb.aodb.192.168.50.240.nip.io
+  gateways:
+    - aodb-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /services/flight/
+      rewrite:
+        uri: /
+      route:
+        - destination:
+            host: flight
+    - match:
+        - uri:
+            prefix: /services/weather/
+      rewrite:
+        uri: /
+      route:
+        - destination:
+            host: weather
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: aodb
+  

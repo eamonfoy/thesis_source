@@ -1,0 +1,40 @@
+{
+  "aodbApp": {
+    "weatherWeather": {
+      "home": {
+        "title": "Weathers",
+        "createLabel": "Create a new Weather",
+        "createOrEditLabel": "Create or edit a Weather",
+        "notFound": "No Weathers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Weather {{ id }}?"
+      },
+      "detail": {
+        "title": "Weather"
+      },
+      "airportCode": "Airport Code",
+      "forecastDate": "Forecast Date",
+      "dayName": "Day Name",
+      "highTemperatureValue": "High Temperature Value",
+      "lowTemperatureValue": "Low Temperature Value",
+      "feelsLikeHighTemperature": "Feels Like High Temperature",
+      "feelsLikeLowTemperature": "Feels Like Low Temperature",
+      "phrase": "Phrase",
+      "probabilityOfPrecip": "Probability Of Precip",
+      "probabilityOfPrecipUnits": "Probability Of Precip Units",
+      "nightPhrase": "Night Phrase",
+      "nightIcon": "Night Icon",
+      "nightProbabilityOfPrecip": "Night Probability Of Precip",
+      "nightProbabilityOfPrecipUnits": "Night Probability Of Precip Units",
+      "icon": "Icon"
+    }
+  },
+  "weatherApp": {
+    "weatherWeather": {
+      "created": "A new Weather is created with identifier {{ param }}",
+      "updated": "A Weather is updated with identifier {{ param }}",
+      "deleted": "A Weather is deleted with identifier {{ param }}"
+    }
+  }
+}

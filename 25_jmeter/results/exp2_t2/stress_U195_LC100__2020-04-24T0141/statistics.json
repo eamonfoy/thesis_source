@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 19500,
+    "errorCount" : 9178,
+    "errorPct" : 47.066666,
+    "meanResTime" : 1781.8099487179422,
+    "minResTime" : 0.0,
+    "maxResTime" : 13669.0,
+    "pct1ResTime" : 4510.0,
+    "pct2ResTime" : 5707.950000000001,
+    "pct3ResTime" : 9641.81000000003,
+    "throughput" : 24.498041412996777,
+    "receivedKBytesPerSec" : 89.5811898365007,
+    "sentKBytesPerSec" : 10.287263483973256
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 195,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 162.95897435897442,
+    "minResTime" : 138.0,
+    "maxResTime" : 321.0,
+    "pct1ResTime" : 179.40000000000003,
+    "pct2ResTime" : 250.39999999999998,
+    "pct3ResTime" : 310.43999999999994,
+    "throughput" : 3.2474561593418487,
+    "receivedKBytesPerSec" : 4.217887394457675,
+    "sentKBytesPerSec" : 0.7230664104784585
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 39195,
+    "errorCount" : 18333,
+    "errorPct" : 46.773823,
+    "meanResTime" : 1798.1754560530626,
+    "minResTime" : 0.0,
+    "maxResTime" : 13669.0,
+    "pct1ResTime" : 4564.0,
+    "pct2ResTime" : 5691.950000000001,
+    "pct3ResTime" : 6884.0,
+    "throughput" : 49.0776728205231,
+    "receivedKBytesPerSec" : 180.153800303206,
+    "sentKBytesPerSec" : 20.512933561703015
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 19500,
+    "errorCount" : 9155,
+    "errorPct" : 46.94872,
+    "meanResTime" : 1830.8931282051274,
+    "minResTime" : 1.0,
+    "maxResTime" : 13483.0,
+    "pct1ResTime" : 4659.9000000000015,
+    "pct2ResTime" : 6001.950000000001,
+    "pct3ResTime" : 9786.960000000006,
+    "throughput" : 24.502135455343918,
+    "receivedKBytesPerSec" : 90.86937812441492,
+    "sentKBytesPerSec" : 10.241126928600776
+  }
+}

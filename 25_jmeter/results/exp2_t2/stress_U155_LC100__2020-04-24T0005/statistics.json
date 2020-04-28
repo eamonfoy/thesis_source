@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 15500,
+    "errorCount" : 6934,
+    "errorPct" : 44.735485,
+    "meanResTime" : 1387.8756129032292,
+    "minResTime" : 0.0,
+    "maxResTime" : 9535.0,
+    "pct1ResTime" : 3798.0,
+    "pct2ResTime" : 4709.949999999999,
+    "pct3ResTime" : 6057.969999999999,
+    "throughput" : 21.897851467579876,
+    "receivedKBytesPerSec" : 83.38146114650087,
+    "sentKBytesPerSec" : 9.194793595973339
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 155,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 153.95483870967738,
+    "minResTime" : 143.0,
+    "maxResTime" : 191.0,
+    "pct1ResTime" : 161.0,
+    "pct2ResTime" : 166.2,
+    "pct3ResTime" : 186.51999999999998,
+    "throughput" : 2.581698257770079,
+    "receivedKBytesPerSec" : 3.3531823074552785,
+    "sentKBytesPerSec" : 0.5748312527066192
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 31155,
+    "errorCount" : 13790,
+    "errorPct" : 44.262558,
+    "meanResTime" : 1375.2464130958037,
+    "minResTime" : 0.0,
+    "maxResTime" : 10086.0,
+    "pct1ResTime" : 2773.9000000000015,
+    "pct2ResTime" : 3482.9000000000015,
+    "pct3ResTime" : 4709.990000000002,
+    "throughput" : 43.831018095155024,
+    "receivedKBytesPerSec" : 168.0798830702429,
+    "sentKBytesPerSec" : 18.31881704172634
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 15500,
+    "errorCount" : 6856,
+    "errorPct" : 44.232258,
+    "meanResTime" : 1374.8301290322554,
+    "minResTime" : 1.0,
+    "maxResTime" : 10086.0,
+    "pct1ResTime" : 3688.0,
+    "pct2ResTime" : 4632.7499999999945,
+    "pct3ResTime" : 6176.0,
+    "throughput" : 21.897727722240745,
+    "receivedKBytesPerSec" : 85.11782384752613,
+    "sentKBytesPerSec" : 9.151975395783769
+  }
+}

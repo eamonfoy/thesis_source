@@ -1,0 +1,62 @@
+{
+  "HTTP Request - Get Departure flights" : {
+    "transaction" : "HTTP Request - Get Departure flights",
+    "sampleCount" : 14000,
+    "errorCount" : 2338,
+    "errorPct" : 16.7,
+    "meanResTime" : 1443.4722142857088,
+    "minResTime" : 0.0,
+    "maxResTime" : 8758.0,
+    "pct1ResTime" : 3049.0,
+    "pct2ResTime" : 3497.949999999999,
+    "pct3ResTime" : 4666.969999999999,
+    "throughput" : 19.352974759573847,
+    "receivedKBytesPerSec" : 109.55995752454027,
+    "sentKBytesPerSec" : 8.126737447867924
+  },
+  "HTTP Request - Authenticate and get JWT token" : {
+    "transaction" : "HTTP Request - Authenticate and get JWT token",
+    "sampleCount" : 140,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 157.9857142857143,
+    "minResTime" : 145.0,
+    "maxResTime" : 245.0,
+    "pct1ResTime" : 166.9,
+    "pct2ResTime" : 170.0,
+    "pct3ResTime" : 245.0,
+    "throughput" : 2.331817651859625,
+    "receivedKBytesPerSec" : 3.0286303486067387,
+    "sentKBytesPerSec" : 0.5191937740468695
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 28140,
+    "errorCount" : 4665,
+    "errorPct" : 16.577826,
+    "meanResTime" : 1441.930987917557,
+    "minResTime" : 0.0,
+    "maxResTime" : 8758.0,
+    "pct1ResTime" : 3141.0,
+    "pct2ResTime" : 3624.9500000000007,
+    "pct3ResTime" : 5006.94000000001,
+    "throughput" : 38.73258822881682,
+    "receivedKBytesPerSec" : 219.8638837045952,
+    "sentKBytesPerSec" : 16.189011486263283
+  },
+  "HTTP Request - Get Arrival flights" : {
+    "transaction" : "HTTP Request - Get Arrival flights",
+    "sampleCount" : 14000,
+    "errorCount" : 2327,
+    "errorPct" : 16.62143,
+    "meanResTime" : 1453.2292142857136,
+    "minResTime" : 1.0,
+    "maxResTime" : 7781.0,
+    "pct1ResTime" : 3064.8999999999996,
+    "pct2ResTime" : 3530.8499999999967,
+    "pct3ResTime" : 4870.919999999998,
+    "throughput" : 19.346663184267292,
+    "receivedKBytesPerSec" : 110.96371381094372,
+    "sentKBytesPerSec" : 8.08630062779922
+  }
+}

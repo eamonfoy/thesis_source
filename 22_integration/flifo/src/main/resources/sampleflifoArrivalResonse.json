@@ -1,0 +1,5043 @@
+{
+  "subscribedForUpdates": false,
+  "flightRecord": [
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6770"
+        }
+      ],
+      "actual": "2020-02-10T15:48:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T14:55:00+0000",
+      "aircraft": "32Q",
+      "estimated": "2020-02-10T15:44:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GNEOT",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "836"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6770"
+        },
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8336"
+        }
+      ],
+      "actual": "2020-02-10T15:48:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T14:55:00+0000",
+      "aircraft": "32Q",
+      "estimated": "2020-02-10T15:44:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GNEOT",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "836"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8364"
+        }
+      ],
+      "actual": "2020-02-10T14:48:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T14:55:00+0000",
+      "aircraft": "E17",
+      "estimated": "2020-02-10T14:49:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYH",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4464"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8336"
+        }
+      ],
+      "actual": "2020-02-10T15:48:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T14:55:00+0000",
+      "aircraft": "32Q",
+      "estimated": "2020-02-10T15:44:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GNEOT",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "836"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8364"
+        }
+      ],
+      "actual": "2020-02-10T14:48:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T14:55:00+0000",
+      "aircraft": "E17",
+      "estimated": "2020-02-10T14:49:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYH",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4464"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T14:40:00+0000",
+      "city": "Carlisle",
+      "scheduled": "2020-02-10T14:55:00+0000",
+      "aircraft": "SF3",
+      "estimated": "2020-02-10T14:55:00+0000",
+      "terminal": "T1",
+      "duration": "75",
+      "tailNumber": "ESNSD",
+      "statusText": "Arrived",
+      "claim": "10",
+      "airportCode": "CAX",
+      "operatingCarrier": {
+        "airlineCode": "LM",
+        "airline": "Linhas A",
+        "flightNumber": "635"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "6165"
+        }
+      ],
+      "actual": "2020-02-10T14:55:00+0000",
+      "city": "Manchester",
+      "scheduled": "2020-02-10T15:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T15:05:00+0000",
+      "terminal": "T2",
+      "duration": "65",
+      "tailNumber": "EIDEC",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "MAN",
+      "gate": "423",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "205"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "6165"
+        }
+      ],
+      "actual": "2020-02-10T14:55:00+0000",
+      "city": "Manchester",
+      "scheduled": "2020-02-10T15:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T15:05:00+0000",
+      "terminal": "T2",
+      "duration": "65",
+      "tailNumber": "EIDEC",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "MAN",
+      "gate": "423",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "205"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T14:49:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T15:05:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T15:05:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIDCR",
+      "statusText": "Arrived",
+      "claim": "9",
+      "airportCode": "STN",
+      "gate": "103",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "225"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T16:24:00+0000",
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T15:15:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T16:30:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIFTJ",
+      "statusText": "Arrived",
+      "claim": "3",
+      "airportCode": "EDI",
+      "gate": "109",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "817"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T15:17:00+0000",
+      "city": "Beauvais/Tillé",
+      "scheduled": "2020-02-10T15:30:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T15:30:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIEMO",
+      "statusText": "Arrived",
+      "claim": "6",
+      "airportCode": "BVA",
+      "gate": "111",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1861"
+      },
+      "status": "AR"
+    },
+    {
+      "duration": "55",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8919"
+        }
+      ],
+      "city": "Donegal",
+      "scheduled": "2020-02-10T15:35:00+0000",
+      "aircraft": "AT4",
+      "statusText": "Cancelled",
+      "estimated": "2020-02-10T15:35:00+0000",
+      "claim": "3",
+      "airportCode": "CFN",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3403"
+      },
+      "status": "CX"
+    },
+    {
+      "duration": "55",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3403"
+        }
+      ],
+      "city": "Donegal",
+      "scheduled": "2020-02-10T15:35:00+0000",
+      "aircraft": "AT4",
+      "statusText": "Cancelled",
+      "estimated": "2020-02-10T15:35:00+0000",
+      "claim": "3",
+      "airportCode": "CFN",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "8919"
+      },
+      "status": "CX"
+    },
+    {
+      "duration": "55",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7890"
+        }
+      ],
+      "city": "Donegal",
+      "scheduled": "2020-02-10T15:35:00+0000",
+      "aircraft": "AT4",
+      "statusText": "Cancelled",
+      "estimated": "2020-02-10T15:35:00+0000",
+      "claim": "3",
+      "airportCode": "CFN",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3403"
+      },
+      "status": "CX"
+    },
+    {
+      "actual": "2020-02-10T15:34:00+0000",
+      "city": "Bratislava",
+      "scheduled": "2020-02-10T15:35:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T15:35:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIDPF",
+      "statusText": "Arrived",
+      "claim": "5",
+      "airportCode": "BTS",
+      "gate": "104",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "4283"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T15:19:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T15:35:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T15:35:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIDHR",
+      "statusText": "Arrived",
+      "claim": "9",
+      "airportCode": "LTN",
+      "gate": "105",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "338"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T15:32:00+0000",
+      "city": "Bordeaux/Mérignac",
+      "scheduled": "2020-02-10T15:40:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T15:40:00+0000",
+      "terminal": "T2",
+      "duration": "125",
+      "tailNumber": "EIDVL",
+      "statusText": "Arrived",
+      "claim": "4",
+      "airportCode": "BOD",
+      "gate": "419",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "507"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5965"
+        }
+      ],
+      "actual": "2020-02-10T16:43:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T15:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T16:50:00+0000",
+      "terminal": "T2",
+      "duration": "90",
+      "tailNumber": "EIDEG",
+      "statusText": "Arrived",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "414",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "165"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5965"
+        }
+      ],
+      "actual": "2020-02-10T16:43:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T15:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T16:50:00+0000",
+      "terminal": "T2",
+      "duration": "90",
+      "tailNumber": "EIDEG",
+      "statusText": "Arrived",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "414",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "165"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T15:51:00+0000",
+      "city": "Warsaw",
+      "scheduled": "2020-02-10T15:50:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T15:50:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIDLV",
+      "statusText": "Arrived",
+      "claim": "4",
+      "airportCode": "WMI",
+      "gate": "108",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "8012"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8366"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T15:55:00+0000",
+      "aircraft": "E19",
+      "estimated": "2020-02-10T16:59:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYS",
+      "statusText": "In Air",
+      "claim": "4",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4466"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8366"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T15:55:00+0000",
+      "aircraft": "E19",
+      "estimated": "2020-02-10T16:59:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYS",
+      "statusText": "In Air",
+      "claim": "4",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4466"
+      },
+      "status": "IA"
+    },
+    {
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T15:55:00+0000",
+      "aircraft": "73H",
+      "statusText": "Delayed",
+      "estimated": "2020-02-10T18:30:00+0000",
+      "claim": "9",
+      "airportCode": "BHX",
+      "gate": "105",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "671"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "6E",
+          "airline": "IndiGo Airlines",
+          "flightNumber": "4048"
+        }
+      ],
+      "actual": "2020-02-10T16:44:00+0000",
+      "city": "Istanbul",
+      "scheduled": "2020-02-10T16:00:00+0000",
+      "aircraft": "32B",
+      "estimated": "2020-02-10T16:40:00+0000",
+      "terminal": "T1",
+      "duration": "290",
+      "tailNumber": "TCJTM",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "IST",
+      "gate": "306",
+      "operatingCarrier": {
+        "airlineCode": "TK",
+        "airline": "Turkish Airlines",
+        "flightNumber": "1977"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "6E",
+          "airline": "IndiGo Airlines",
+          "flightNumber": "4048"
+        }
+      ],
+      "actual": "2020-02-10T16:44:00+0000",
+      "city": "Istanbul",
+      "scheduled": "2020-02-10T16:00:00+0000",
+      "aircraft": "32B",
+      "estimated": "2020-02-10T16:40:00+0000",
+      "terminal": "T1",
+      "duration": "290",
+      "tailNumber": "TCJTM",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "IST",
+      "gate": "306",
+      "operatingCarrier": {
+        "airlineCode": "TK",
+        "airline": "Turkish Airlines",
+        "flightNumber": "1977"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T16:14:00+0000",
+      "city": "Barcelona",
+      "scheduled": "2020-02-10T16:10:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T16:25:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIEVW",
+      "statusText": "Arrived",
+      "claim": "5",
+      "airportCode": "BCN",
+      "gate": "107",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "6874"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "DL",
+          "airline": "Delta Air Lines",
+          "flightNumber": "8286"
+        },
+        {
+          "airlineCode": "KK",
+          "airline": "Atlasjet",
+          "flightNumber": "7447"
+        },
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3143"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T16:15:00+0000",
+      "aircraft": "E90",
+      "estimated": "2020-02-10T17:02:00+0000",
+      "terminal": "1",
+      "duration": "115",
+      "tailNumber": "FHBLK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "CDG",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1116"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "DL",
+          "airline": "Delta Air Lines",
+          "flightNumber": "8286"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T16:15:00+0000",
+      "aircraft": "E90",
+      "estimated": "2020-02-10T17:02:00+0000",
+      "terminal": "1",
+      "duration": "115",
+      "tailNumber": "FHBLK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "CDG",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1116"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "KK",
+          "airline": "Atlasjet",
+          "flightNumber": "7447"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T16:15:00+0000",
+      "aircraft": "E90",
+      "estimated": "2020-02-10T17:02:00+0000",
+      "terminal": "1",
+      "duration": "115",
+      "tailNumber": "FHBLK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "CDG",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1116"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3143"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T16:15:00+0000",
+      "aircraft": "E90",
+      "estimated": "2020-02-10T17:02:00+0000",
+      "terminal": "1",
+      "duration": "115",
+      "tailNumber": "FHBLK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "CDG",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1116"
+      },
+      "status": "IA"
+    },
+    {
+      "actual": "2020-02-10T16:39:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T16:15:00+0000",
+      "aircraft": "73H",
+      "statusText": "Arrived",
+      "estimated": "2020-02-10T16:45:00+0000",
+      "claim": "8",
+      "airportCode": "LGW",
+      "gate": "110",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "123"
+      },
+      "status": "AR"
+    },
+    {
+      "city": "Manchester",
+      "scheduled": "2020-02-10T16:15:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T17:25:00+0000",
+      "claim": "6",
+      "airportCode": "MAN",
+      "gate": "107",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "561"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5909"
+        }
+      ],
+      "actual": "2020-02-10T16:10:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T16:20:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T16:20:00+0000",
+      "terminal": "T2",
+      "duration": "85",
+      "tailNumber": "EIGAM",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LGW",
+      "gate": "408",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "239"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8485"
+        },
+        {
+          "airlineCode": "VS",
+          "airline": "Virgin Atlantic Airways",
+          "flightNumber": "8681"
+        }
+      ],
+      "actual": "2020-02-10T16:23:00+0000",
+      "city": "Southampton",
+      "scheduled": "2020-02-10T16:20:00+0000",
+      "aircraft": "DH4",
+      "estimated": "2020-02-10T16:43:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GFLBB",
+      "statusText": "Arrived",
+      "claim": "6",
+      "airportCode": "SOU",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "385"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5909"
+        }
+      ],
+      "actual": "2020-02-10T16:10:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T16:20:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T16:20:00+0000",
+      "terminal": "T2",
+      "duration": "85",
+      "tailNumber": "EIGAM",
+      "statusText": "Arrived",
+      "claim": "2",
+      "airportCode": "LGW",
+      "gate": "408",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "239"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8485"
+        }
+      ],
+      "actual": "2020-02-10T16:23:00+0000",
+      "city": "Southampton",
+      "scheduled": "2020-02-10T16:20:00+0000",
+      "aircraft": "DH4",
+      "estimated": "2020-02-10T16:43:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GFLBB",
+      "statusText": "Arrived",
+      "claim": "6",
+      "airportCode": "SOU",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "385"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T16:21:00+0000",
+      "city": "Lanzarote Island",
+      "scheduled": "2020-02-10T16:20:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T16:20:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIGSH",
+      "statusText": "Arrived",
+      "claim": "3",
+      "airportCode": "ACE",
+      "gate": "113",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "7125"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8425"
+        }
+      ],
+      "city": "Cardiff",
+      "scheduled": "2020-02-10T16:30:00+0000",
+      "aircraft": "DH4",
+      "estimated": "2020-02-10T16:50:00+0000",
+      "terminal": "T1",
+      "duration": "70",
+      "tailNumber": "GJEDU",
+      "statusText": "Departed",
+      "claim": "10",
+      "airportCode": "CWL",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "4525"
+      },
+      "status": "DP"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8425"
+        }
+      ],
+      "city": "Cardiff",
+      "scheduled": "2020-02-10T16:30:00+0000",
+      "aircraft": "DH4",
+      "estimated": "2020-02-10T16:50:00+0000",
+      "terminal": "T1",
+      "duration": "70",
+      "tailNumber": "GJEDU",
+      "statusText": "Departed",
+      "claim": "10",
+      "airportCode": "CWL",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "4525"
+      },
+      "status": "DP"
+    },
+    {
+      "actual": "2020-02-10T16:37:00+0000",
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T16:35:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T16:35:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIENH",
+      "statusText": "Arrived",
+      "claim": "9",
+      "airportCode": "EDI",
+      "gate": "106",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "815"
+      },
+      "status": "AR"
+    },
+    {
+      "city": "Glasgow",
+      "scheduled": "2020-02-10T16:35:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:55:00+0000",
+      "claim": "4",
+      "airportCode": "GLA",
+      "gate": "109",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "5773"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "DL",
+          "airline": "Delta Air Lines",
+          "flightNumber": "9428"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73W",
+      "estimated": "2020-02-10T17:24:00+0000",
+      "terminal": "T1",
+      "duration": "100",
+      "tailNumber": "PHBGK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "AMS",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "937"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "G3",
+          "airline": "Sky Express",
+          "flightNumber": "5565"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73W",
+      "estimated": "2020-02-10T17:24:00+0000",
+      "terminal": "T1",
+      "duration": "100",
+      "tailNumber": "PHBGK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "AMS",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "937"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "DL",
+          "airline": "Delta Air Lines",
+          "flightNumber": "9428"
+        },
+        {
+          "airlineCode": "G3",
+          "airline": "Sky Express",
+          "flightNumber": "5565"
+        },
+        {
+          "airlineCode": "KQ",
+          "airline": "Kenya Airways",
+          "flightNumber": "937"
+        },
+        {
+          "airlineCode": "MF",
+          "airline": "Xiamen Airlines",
+          "flightNumber": "9997"
+        },
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3406"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73W",
+      "estimated": "2020-02-10T17:24:00+0000",
+      "terminal": "T1",
+      "duration": "100",
+      "tailNumber": "PHBGK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "AMS",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "937"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "KQ",
+          "airline": "Kenya Airways",
+          "flightNumber": "937"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73W",
+      "estimated": "2020-02-10T17:24:00+0000",
+      "terminal": "T1",
+      "duration": "100",
+      "tailNumber": "PHBGK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "AMS",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "937"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "MF",
+          "airline": "Xiamen Airlines",
+          "flightNumber": "9997"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73W",
+      "estimated": "2020-02-10T17:24:00+0000",
+      "terminal": "T1",
+      "duration": "100",
+      "tailNumber": "PHBGK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "AMS",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "937"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3406"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73W",
+      "estimated": "2020-02-10T17:24:00+0000",
+      "terminal": "T1",
+      "duration": "100",
+      "tailNumber": "PHBGK",
+      "statusText": "In Air",
+      "claim": "7",
+      "airportCode": "AMS",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "937"
+      },
+      "status": "IA"
+    },
+    {
+      "actual": "2020-02-10T16:27:00+0000",
+      "city": "Alicante",
+      "scheduled": "2020-02-10T16:40:00+0000",
+      "aircraft": "73H",
+      "estimated": "2020-02-10T16:40:00+0000",
+      "terminal": "T1",
+      "tailNumber": "EIESP",
+      "statusText": "Arrived",
+      "claim": "7",
+      "airportCode": "ALC",
+      "gate": "110",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "7063"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6772"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T16:45:00+0000",
+      "aircraft": "20C",
+      "estimated": "2020-02-10T17:12:00+0000",
+      "terminal": "T1",
+      "duration": "90",
+      "tailNumber": "GEUYT",
+      "statusText": "In Air",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "826"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6772"
+        },
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8326"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T16:45:00+0000",
+      "aircraft": "20C",
+      "estimated": "2020-02-10T17:12:00+0000",
+      "terminal": "T1",
+      "duration": "90",
+      "tailNumber": "GEUYT",
+      "statusText": "In Air",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "826"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8326"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T16:45:00+0000",
+      "aircraft": "20C",
+      "estimated": "2020-02-10T17:12:00+0000",
+      "terminal": "T1",
+      "duration": "90",
+      "tailNumber": "GEUYT",
+      "statusText": "In Air",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "826"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8977"
+        }
+      ],
+      "city": "Prague",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T16:50:00+0000",
+      "terminal": "T2",
+      "duration": "165",
+      "tailNumber": "EIDEI",
+      "statusText": "In Air",
+      "claim": "4",
+      "airportCode": "PRG",
+      "gate": "421",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "645"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8977"
+        }
+      ],
+      "city": "Prague",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T16:50:00+0000",
+      "terminal": "T2",
+      "duration": "165",
+      "tailNumber": "EIDEI",
+      "statusText": "In Air",
+      "claim": "4",
+      "airportCode": "PRG",
+      "gate": "421",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "645"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8947"
+        }
+      ],
+      "city": "Lyon",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T17:15:00+0000",
+      "terminal": "T2",
+      "duration": "145",
+      "tailNumber": "EIDEE",
+      "statusText": "In Air",
+      "claim": "1",
+      "airportCode": "LYS",
+      "gate": "420",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "553"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8947"
+        }
+      ],
+      "city": "Lyon",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T17:15:00+0000",
+      "terminal": "T2",
+      "duration": "145",
+      "tailNumber": "EIDEE",
+      "statusText": "In Air",
+      "claim": "1",
+      "airportCode": "LYS",
+      "gate": "420",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "553"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8885"
+        }
+      ],
+      "city": "Bristol",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "claim": "3",
+      "airportCode": "BRS",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3285"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3285"
+        }
+      ],
+      "city": "Bristol",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "claim": "3",
+      "airportCode": "BRS",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EY",
+        "airline": "Etihad Airways",
+        "flightNumber": "7902"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7902"
+        }
+      ],
+      "city": "Bristol",
+      "scheduled": "2020-02-10T16:50:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "claim": "3",
+      "airportCode": "BRS",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3285"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8913"
+        }
+      ],
+      "actual": "2020-02-10T16:41:00+0000",
+      "city": "Leeds",
+      "scheduled": "2020-02-10T16:55:00+0000",
+      "aircraft": "AT7",
+      "estimated": "2020-02-10T16:55:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "tailNumber": "EIFSK",
+      "statusText": "Arrived",
+      "claim": "5",
+      "airportCode": "LBA",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3393"
+      },
+      "status": "AR"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3393"
+        }
+      ],
+      "actual": "2020-02-10T16:41:00+0000",
+      "city": "Leeds",
+      "scheduled": "2020-02-10T16:55:00+0000",
+      "aircraft": "AT7",
+      "estimated": "2020-02-10T16:55:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "tailNumber": "EIFSK",
+      "statusText": "Arrived",
+      "claim": "5",
+      "airportCode": "LBA",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "8913"
+      },
+      "status": "AR"
+    },
+    {
+      "actual": "2020-02-10T16:49:00+0000",
+      "city": "London",
+      "scheduled": "2020-02-10T17:00:00+0000",
+      "aircraft": "AR8",
+      "estimated": "2020-02-10T17:00:00+0000",
+      "terminal": "T2",
+      "duration": "90",
+      "tailNumber": "EIRJD",
+      "statusText": "Landed",
+      "claim": "6",
+      "airportCode": "LCY",
+      "gate": "307",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "287"
+      },
+      "status": "LN"
+    },
+    {
+      "city": "Kaunas",
+      "scheduled": "2020-02-10T17:00:00+0000",
+      "tailNumber": "EIEFX",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T17:00:00+0000",
+      "claim": "5",
+      "airportCode": "KUN",
+      "gate": "103",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "2972"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Faro",
+      "scheduled": "2020-02-10T17:00:00+0000",
+      "tailNumber": "EIFTW",
+      "aircraft": "73H",
+      "statusText": "Departed",
+      "estimated": "2020-02-10T17:00:00+0000",
+      "claim": "4",
+      "airportCode": "FAO",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "7035"
+      },
+      "status": "DP"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "LA",
+          "airline": "LAN Airlines",
+          "flightNumber": "8681"
+        }
+      ],
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T17:05:00+0000",
+      "aircraft": "32A",
+      "estimated": "2020-02-10T17:37:00+0000",
+      "terminal": "T1",
+      "duration": "125",
+      "tailNumber": "DAIWI",
+      "statusText": "In Air",
+      "claim": "6",
+      "airportCode": "FRA",
+      "gate": "301",
+      "operatingCarrier": {
+        "airlineCode": "LH",
+        "airline": "Lufthansa",
+        "flightNumber": "980"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "LA",
+          "airline": "LAN Airlines",
+          "flightNumber": "8681"
+        },
+        {
+          "airlineCode": "OS",
+          "airline": "Austrian Airlines",
+          "flightNumber": "7473"
+        }
+      ],
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T17:05:00+0000",
+      "aircraft": "32A",
+      "estimated": "2020-02-10T17:37:00+0000",
+      "terminal": "T1",
+      "duration": "125",
+      "tailNumber": "DAIWI",
+      "statusText": "In Air",
+      "claim": "6",
+      "airportCode": "FRA",
+      "gate": "301",
+      "operatingCarrier": {
+        "airlineCode": "LH",
+        "airline": "Lufthansa",
+        "flightNumber": "980"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "OS",
+          "airline": "Austrian Airlines",
+          "flightNumber": "7473"
+        }
+      ],
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T17:05:00+0000",
+      "aircraft": "32A",
+      "estimated": "2020-02-10T17:37:00+0000",
+      "terminal": "T1",
+      "duration": "125",
+      "tailNumber": "DAIWI",
+      "statusText": "In Air",
+      "claim": "6",
+      "airportCode": "FRA",
+      "gate": "301",
+      "operatingCarrier": {
+        "airlineCode": "LH",
+        "airline": "Lufthansa",
+        "flightNumber": "980"
+      },
+      "status": "IA"
+    },
+    {
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T17:05:00+0000",
+      "aircraft": "73H",
+      "statusText": "Delayed",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "6",
+      "airportCode": "BHX",
+      "gate": "103",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "673"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Treviso",
+      "scheduled": "2020-02-10T17:10:00+0000",
+      "tailNumber": "EIDPB",
+      "aircraft": "73H",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T18:30:00+0000",
+      "claim": "10",
+      "airportCode": "TSF",
+      "gate": "107",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "9451"
+      },
+      "status": "IA"
+    },
+    {
+      "city": "Brussels",
+      "scheduled": "2020-02-10T17:10:00+0000",
+      "aircraft": "73H",
+      "statusText": "Delayed",
+      "estimated": "2020-02-10T19:50:00+0000",
+      "claim": "8",
+      "airportCode": "BRU",
+      "gate": "110",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1455"
+      },
+      "status": "DL"
+    },
+    {
+      "duration": "150",
+      "city": "Munich",
+      "scheduled": "2020-02-10T17:15:00+0000",
+      "aircraft": "321",
+      "statusText": "Delayed",
+      "estimated": "2020-02-10T17:15:00+0000",
+      "claim": "8",
+      "airportCode": "MUC",
+      "gate": "304",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "LH",
+        "airline": "Lufthansa",
+        "flightNumber": "2518"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Manchester",
+      "scheduled": "2020-02-10T17:20:00+0000",
+      "aircraft": "73H",
+      "statusText": "Delayed",
+      "estimated": "2020-02-10T18:40:00+0000",
+      "claim": "4",
+      "airportCode": "MAN",
+      "gate": "103",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "557"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8857"
+        }
+      ],
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T17:25:00+0000",
+      "aircraft": "AT7",
+      "estimated": "2020-02-10T17:55:00+0000",
+      "terminal": "T2",
+      "duration": "75",
+      "tailNumber": "EIGPN",
+      "statusText": "Delayed",
+      "claim": "5",
+      "airportCode": "EDI",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3257"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3257"
+        }
+      ],
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T17:25:00+0000",
+      "aircraft": "AT7",
+      "estimated": "2020-02-10T17:55:00+0000",
+      "terminal": "T2",
+      "duration": "75",
+      "tailNumber": "EIGPN",
+      "statusText": "Delayed",
+      "claim": "5",
+      "airportCode": "EDI",
+      "operatingCarrier": {
+        "airlineCode": "EY",
+        "airline": "Etihad Airways",
+        "flightNumber": "7922"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7922"
+        }
+      ],
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T17:25:00+0000",
+      "aircraft": "AT7",
+      "estimated": "2020-02-10T17:55:00+0000",
+      "terminal": "T2",
+      "duration": "75",
+      "tailNumber": "EIGPN",
+      "statusText": "Delayed",
+      "claim": "5",
+      "airportCode": "EDI",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3257"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Pisa",
+      "scheduled": "2020-02-10T17:30:00+0000",
+      "tailNumber": "EIDPH",
+      "aircraft": "73H",
+      "statusText": "Departed",
+      "estimated": "2020-02-10T17:45:00+0000",
+      "claim": "9",
+      "airportCode": "PSA",
+      "gate": "108",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "9907"
+      },
+      "status": "DP"
+    },
+    {
+      "duration": "165",
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "8743"
+        }
+      ],
+      "city": "Madrid",
+      "scheduled": "2020-02-10T17:35:00+0000",
+      "aircraft": "320",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T17:35:00+0000",
+      "airportCode": "MAD",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "IB",
+        "airline": "Iberia Airlines",
+        "flightNumber": "3790"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "165",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "7276"
+        }
+      ],
+      "city": "Madrid",
+      "scheduled": "2020-02-10T17:35:00+0000",
+      "aircraft": "320",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T17:35:00+0000",
+      "airportCode": "MAD",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "IB",
+        "airline": "Iberia Airlines",
+        "flightNumber": "3790"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "165",
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "8743"
+        },
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "7276"
+        }
+      ],
+      "city": "Madrid",
+      "scheduled": "2020-02-10T17:35:00+0000",
+      "aircraft": "320",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T17:35:00+0000",
+      "airportCode": "MAD",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "IB",
+        "airline": "Iberia Airlines",
+        "flightNumber": "3790"
+      },
+      "status": "IA"
+    },
+    {
+      "city": "Kraków",
+      "scheduled": "2020-02-10T17:40:00+0000",
+      "tailNumber": "SPRSW",
+      "aircraft": "73H",
+      "statusText": "Departed",
+      "estimated": "2020-02-10T17:55:00+0000",
+      "claim": "5",
+      "airportCode": "KRK",
+      "gate": "111",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1902"
+      },
+      "status": "DP"
+    },
+    {
+      "city": "Hamburg",
+      "scheduled": "2020-02-10T17:40:00+0000",
+      "tailNumber": "EIDPP",
+      "aircraft": "73H",
+      "statusText": "Departed",
+      "estimated": "2020-02-10T19:40:00+0000",
+      "claim": "3",
+      "airportCode": "HAM",
+      "gate": "105",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "8512"
+      },
+      "status": "DP"
+    },
+    {
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T17:40:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T17:40:00+0000",
+      "claim": "7",
+      "airportCode": "BHX",
+      "gate": "112",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "667"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8967"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T17:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "tailNumber": "EIDES",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "AMS",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "609"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8967"
+        },
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7865"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T17:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "tailNumber": "EIDES",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "AMS",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "609"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7865"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T17:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "tailNumber": "EIDES",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "AMS",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "609"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Zurich",
+      "scheduled": "2020-02-10T17:50:00+0000",
+      "aircraft": "321",
+      "estimated": "2020-02-10T18:12:00+0000",
+      "terminal": "T1",
+      "duration": "140",
+      "tailNumber": "HBIOM",
+      "statusText": "In Air",
+      "claim": "6",
+      "airportCode": "ZRH",
+      "gate": "305",
+      "operatingCarrier": {
+        "airlineCode": "LX",
+        "airline": "Swiss International Air Lines",
+        "flightNumber": "406"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8943"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T17:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "terminal": "T2",
+      "duration": "110",
+      "tailNumber": "EIDEH",
+      "statusText": "In Air",
+      "claim": "3",
+      "airportCode": "CDG",
+      "gate": "413",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "527"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8943"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T17:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:05:00+0000",
+      "terminal": "T2",
+      "duration": "110",
+      "tailNumber": "EIDEH",
+      "statusText": "In Air",
+      "claim": "3",
+      "airportCode": "CDG",
+      "gate": "413",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "527"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8867"
+        }
+      ],
+      "city": "Glasgow",
+      "scheduled": "2020-02-10T17:50:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:40:00+0000",
+      "claim": "4",
+      "airportCode": "GLA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3227"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3227"
+        }
+      ],
+      "city": "Glasgow",
+      "scheduled": "2020-02-10T17:50:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:40:00+0000",
+      "claim": "4",
+      "airportCode": "GLA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EY",
+        "airline": "Etihad Airways",
+        "flightNumber": "7910"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7910"
+        }
+      ],
+      "city": "Glasgow",
+      "scheduled": "2020-02-10T17:50:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:40:00+0000",
+      "claim": "4",
+      "airportCode": "GLA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3227"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Vilnius",
+      "scheduled": "2020-02-10T18:00:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:00:00+0000",
+      "claim": "8",
+      "airportCode": "VNO",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "7149"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Vienna",
+      "scheduled": "2020-02-10T18:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:30:00+0000",
+      "terminal": "T1",
+      "duration": "180",
+      "tailNumber": "OEIHL",
+      "statusText": "In Air",
+      "claim": "4",
+      "airportCode": "VIE",
+      "gate": "103",
+      "operatingCarrier": {
+        "airlineCode": "OE",
+        "airline": "Laudamotion",
+        "flightNumber": "342"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8891"
+        }
+      ],
+      "city": "Newcastle",
+      "scheduled": "2020-02-10T18:15:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "6",
+      "airportCode": "NCL",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3351"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3351"
+        }
+      ],
+      "city": "Newcastle",
+      "scheduled": "2020-02-10T18:15:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "6",
+      "airportCode": "NCL",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EY",
+        "airline": "Etihad Airways",
+        "flightNumber": "5164"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "5164"
+        }
+      ],
+      "city": "Newcastle",
+      "scheduled": "2020-02-10T18:15:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "6",
+      "airportCode": "NCL",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3351"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "70",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8925"
+        }
+      ],
+      "city": "Newquay",
+      "scheduled": "2020-02-10T18:15:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "5",
+      "airportCode": "NQY",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3931"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "70",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3931"
+        }
+      ],
+      "city": "Newquay",
+      "scheduled": "2020-02-10T18:15:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "5",
+      "airportCode": "NQY",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EY",
+        "airline": "Etihad Airways",
+        "flightNumber": "7913"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "70",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7913"
+        }
+      ],
+      "city": "Newquay",
+      "scheduled": "2020-02-10T18:15:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:15:00+0000",
+      "claim": "5",
+      "airportCode": "NQY",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3931"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "45",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8909"
+        }
+      ],
+      "city": "Castletown",
+      "scheduled": "2020-02-10T18:20:00+0000",
+      "aircraft": "AT4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:20:00+0000",
+      "claim": "4",
+      "airportCode": "IOM",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3217"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "45",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3217"
+        }
+      ],
+      "city": "Castletown",
+      "scheduled": "2020-02-10T18:20:00+0000",
+      "aircraft": "AT4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:20:00+0000",
+      "claim": "4",
+      "airportCode": "IOM",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EY",
+        "airline": "Etihad Airways",
+        "flightNumber": "7931"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "45",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7931"
+        }
+      ],
+      "city": "Castletown",
+      "scheduled": "2020-02-10T18:20:00+0000",
+      "aircraft": "AT4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:20:00+0000",
+      "claim": "4",
+      "airportCode": "IOM",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3217"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T18:25:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:25:00+0000",
+      "claim": "7",
+      "airportCode": "STN",
+      "gate": "110",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "297"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6542"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:35:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T19:24:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPO",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "838"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6542"
+        },
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8338"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:35:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T19:24:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPO",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "838"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8338"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:35:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T19:24:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPO",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "838"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Málaga",
+      "scheduled": "2020-02-10T18:35:00+0000",
+      "tailNumber": "EIDPX",
+      "aircraft": "73H",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T18:35:00+0000",
+      "claim": "5",
+      "airportCode": "AGP",
+      "gate": "111",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "7055"
+      },
+      "status": "IA"
+    },
+    {
+      "city": "Manchester",
+      "scheduled": "2020-02-10T18:35:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:55:00+0000",
+      "claim": "9",
+      "airportCode": "MAN",
+      "gate": "111",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1557"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5913"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:40:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:40:00+0000",
+      "terminal": "T2",
+      "duration": "85",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "LGW",
+      "gate": "426",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "243"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5913"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:40:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:40:00+0000",
+      "terminal": "T2",
+      "duration": "85",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "LGW",
+      "gate": "426",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "243"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8372"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:40:00+0000",
+      "aircraft": "E70",
+      "estimated": "2020-02-10T19:25:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYD",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4472"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8372"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T18:40:00+0000",
+      "aircraft": "E70",
+      "estimated": "2020-02-10T19:25:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYD",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4472"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Pozna?",
+      "scheduled": "2020-02-10T18:40:00+0000",
+      "tailNumber": "SPRKE",
+      "aircraft": "73H",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T19:25:00+0000",
+      "claim": "4",
+      "airportCode": "POZ",
+      "gate": "112",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1975"
+      },
+      "status": "IA"
+    },
+    {
+      "city": "Wroc?aw",
+      "scheduled": "2020-02-10T18:45:00+0000",
+      "tailNumber": "SPRSC",
+      "aircraft": "73H",
+      "statusText": "In Air",
+      "estimated": "2020-02-10T18:45:00+0000",
+      "claim": "6",
+      "airportCode": "WRO",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1927"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "120",
+      "city": "Luxembourg",
+      "scheduled": "2020-02-10T18:50:00+0000",
+      "aircraft": "73W",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:50:00+0000",
+      "claim": "10",
+      "airportCode": "LUX",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "LG",
+        "airline": "Luxair",
+        "flightNumber": "4883"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "2105"
+        }
+      ],
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T18:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:50:00+0000",
+      "terminal": "T2",
+      "duration": "70",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "BHX",
+      "gate": "409",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "273"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "2105"
+        }
+      ],
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T18:50:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T18:50:00+0000",
+      "terminal": "T2",
+      "duration": "70",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "BHX",
+      "gate": "409",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "273"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "QF",
+          "airline": "Qantas",
+          "flightNumber": "8163"
+        }
+      ],
+      "city": "Dubai",
+      "scheduled": "2020-02-10T18:55:00+0000",
+      "aircraft": "77W",
+      "estimated": "2020-02-10T19:18:00+0000",
+      "terminal": "T2",
+      "duration": "500",
+      "tailNumber": "A6EGV",
+      "statusText": "In Air",
+      "claim": "2",
+      "airportCode": "DXB",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EK",
+        "airline": "Emirates",
+        "flightNumber": "163"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "QF",
+          "airline": "Qantas",
+          "flightNumber": "8163"
+        }
+      ],
+      "city": "Dubai",
+      "scheduled": "2020-02-10T18:55:00+0000",
+      "aircraft": "77W",
+      "estimated": "2020-02-10T19:18:00+0000",
+      "terminal": "T2",
+      "duration": "500",
+      "tailNumber": "A6EGV",
+      "statusText": "In Air",
+      "claim": "2",
+      "airportCode": "DXB",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EK",
+        "airline": "Emirates",
+        "flightNumber": "163"
+      },
+      "status": "IA"
+    },
+    {
+      "duration": "85",
+      "city": "London",
+      "scheduled": "2020-02-10T18:55:00+0000",
+      "aircraft": "AR8",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T18:55:00+0000",
+      "claim": "5",
+      "airportCode": "LCY",
+      "gate": "307",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "289"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T19:00:00+0000",
+      "tailNumber": "EIDWM",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:35:00+0000",
+      "claim": "5",
+      "airportCode": "AMS",
+      "gate": "106",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "3105"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5973"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T19:05:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "422",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "173"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5973"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T19:05:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "422",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "173"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Luxembourg",
+      "scheduled": "2020-02-10T19:05:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T19:05:00+0000",
+      "claim": "8",
+      "airportCode": "LUX",
+      "gate": "109",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1949"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "120",
+      "city": "Paris",
+      "scheduled": "2020-02-10T19:10:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T19:10:00+0000",
+      "claim": "7",
+      "airportCode": "ORY",
+      "gate": "110",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "TO",
+        "airline": "Transavia France",
+        "flightNumber": "3728"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T19:10:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:20:00+0000",
+      "claim": "10",
+      "airportCode": "LGW",
+      "gate": "103",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "117"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Bristol",
+      "scheduled": "2020-02-10T19:10:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T19:35:00+0000",
+      "claim": "6",
+      "airportCode": "BRS",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "509"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "250",
+      "city": "Lanzarote Island",
+      "scheduled": "2020-02-10T19:15:00+0000",
+      "aircraft": "73H",
+      "statusText": "Departed",
+      "estimated": "2020-02-10T19:15:00+0000",
+      "claim": "6",
+      "airportCode": "ACE",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "6B",
+        "airline": "TUIfly Nordic",
+        "flightNumber": "244"
+      },
+      "status": "DP"
+    },
+    {
+      "city": "Madrid",
+      "scheduled": "2020-02-10T19:15:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T19:15:00+0000",
+      "claim": "3",
+      "airportCode": "MAD",
+      "gate": "113",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "3979"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8368"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:25:00+0000",
+      "aircraft": "E70",
+      "estimated": "2020-02-10T19:44:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYH",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4468"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8368"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:25:00+0000",
+      "aircraft": "E70",
+      "estimated": "2020-02-10T19:44:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYH",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4468"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Milan",
+      "scheduled": "2020-02-10T19:25:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "claim": "9",
+      "airportCode": "MXP",
+      "gate": "111",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "6326"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Budapest",
+      "scheduled": "2020-02-10T19:30:00+0000",
+      "tailNumber": "EIFRY",
+      "aircraft": "73H",
+      "statusText": "Departed",
+      "estimated": "2020-02-10T19:55:00+0000",
+      "claim": "5",
+      "airportCode": "BUD",
+      "gate": "108",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1024"
+      },
+      "status": "DP"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8985"
+        }
+      ],
+      "city": "Brussels",
+      "scheduled": "2020-02-10T19:35:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T19:35:00+0000",
+      "terminal": "T2",
+      "duration": "100",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "BRU",
+      "gate": "414",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "637"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8985"
+        }
+      ],
+      "city": "Brussels",
+      "scheduled": "2020-02-10T19:35:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T19:35:00+0000",
+      "terminal": "T2",
+      "duration": "100",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "BRU",
+      "gate": "414",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "637"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Berlin",
+      "scheduled": "2020-02-10T19:35:00+0000",
+      "aircraft": "73H",
+      "statusText": "Delayed",
+      "estimated": "2020-02-10T21:35:00+0000",
+      "claim": "3",
+      "airportCode": "SXF",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "8559"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6391"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:45:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T20:06:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPU",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "828"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6391"
+        },
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8328"
+        },
+        {
+          "airlineCode": "JL",
+          "airline": "Japan Airlines Domestic",
+          "flightNumber": "7823"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:45:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T20:06:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPU",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "828"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8328"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:45:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T20:06:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPU",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "828"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "JL",
+          "airline": "Japan Airlines Domestic",
+          "flightNumber": "7823"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T19:45:00+0000",
+      "aircraft": "319",
+      "estimated": "2020-02-10T20:06:00+0000",
+      "terminal": "T1",
+      "duration": "85",
+      "tailNumber": "GEUPU",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "828"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "2083"
+        }
+      ],
+      "city": "Manchester",
+      "scheduled": "2020-02-10T19:55:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T19:55:00+0000",
+      "terminal": "T2",
+      "duration": "65",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "MAN",
+      "gate": "305",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "213"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "2083"
+        }
+      ],
+      "city": "Manchester",
+      "scheduled": "2020-02-10T19:55:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T19:55:00+0000",
+      "terminal": "T2",
+      "duration": "65",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "MAN",
+      "gate": "305",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "213"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T20:00:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:00:00+0000",
+      "claim": "7",
+      "airportCode": "STN",
+      "gate": "111",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "212"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5975"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T20:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T20:05:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "411",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "175"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5975"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T20:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T20:05:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "411",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "175"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "70",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8427"
+        },
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "6111"
+        }
+      ],
+      "city": "Cardiff",
+      "scheduled": "2020-02-10T20:10:00+0000",
+      "aircraft": "DH4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:10:00+0000",
+      "claim": "9",
+      "airportCode": "CWL",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "4527"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "70",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8427"
+        }
+      ],
+      "city": "Cardiff",
+      "scheduled": "2020-02-10T20:10:00+0000",
+      "aircraft": "DH4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:10:00+0000",
+      "claim": "9",
+      "airportCode": "CWL",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "4527"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "70",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "6111"
+        }
+      ],
+      "city": "Cardiff",
+      "scheduled": "2020-02-10T20:10:00+0000",
+      "aircraft": "DH4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:10:00+0000",
+      "claim": "9",
+      "airportCode": "CWL",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "4527"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "80",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8915"
+        }
+      ],
+      "city": "Leeds",
+      "scheduled": "2020-02-10T20:20:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:20:00+0000",
+      "claim": "2",
+      "airportCode": "LBA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3395"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "80",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3395"
+        }
+      ],
+      "city": "Leeds",
+      "scheduled": "2020-02-10T20:20:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:20:00+0000",
+      "claim": "2",
+      "airportCode": "LBA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "8915"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "85",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8487"
+        },
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "6114"
+        },
+        {
+          "airlineCode": "VS",
+          "airline": "Virgin Atlantic Airways",
+          "flightNumber": "8683"
+        }
+      ],
+      "city": "Southampton",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "DH4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "10",
+      "airportCode": "SOU",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "387"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "85",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8487"
+        }
+      ],
+      "city": "Southampton",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "DH4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "10",
+      "airportCode": "SOU",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "387"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "85",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "6114"
+        }
+      ],
+      "city": "Southampton",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "DH4",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "10",
+      "airportCode": "SOU",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "BE",
+        "airline": "Flybe",
+        "flightNumber": "387"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8887"
+        }
+      ],
+      "city": "Bristol",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "3",
+      "airportCode": "BRS",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3287"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3287"
+        }
+      ],
+      "city": "Bristol",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "3",
+      "airportCode": "BRS",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "8887"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "6",
+      "airportCode": "LGW",
+      "gate": "112",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "127"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Liverpool",
+      "scheduled": "2020-02-10T20:25:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:25:00+0000",
+      "claim": "5",
+      "airportCode": "LPL",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "447"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Cologne",
+      "scheduled": "2020-02-10T20:30:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:30:00+0000",
+      "claim": "3",
+      "airportCode": "CGN",
+      "gate": "113",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "8036"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Leeds",
+      "scheduled": "2020-02-10T20:30:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:30:00+0000",
+      "claim": "2",
+      "airportCode": "LBA",
+      "gate": "109",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "157"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Brussels",
+      "scheduled": "2020-02-10T20:35:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:35:00+0000",
+      "claim": "4",
+      "airportCode": "BRU",
+      "gate": "107",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1457"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T20:40:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:40:00+0000",
+      "claim": "8",
+      "airportCode": "BHX",
+      "gate": "113",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "669"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5917"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T20:55:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T20:55:00+0000",
+      "terminal": "T2",
+      "duration": "85",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LGW",
+      "gate": "416",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "247"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5917"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T20:55:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T20:55:00+0000",
+      "terminal": "T2",
+      "duration": "85",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LGW",
+      "gate": "416",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "247"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8859"
+        }
+      ],
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T20:55:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:55:00+0000",
+      "claim": "2",
+      "airportCode": "EDI",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3259"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3259"
+        }
+      ],
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T20:55:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T20:55:00+0000",
+      "claim": "2",
+      "airportCode": "EDI",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "8859"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "195",
+      "city": "Budapest",
+      "scheduled": "2020-02-10T21:00:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:00:00+0000",
+      "claim": "1",
+      "airportCode": "BUD",
+      "gate": "410",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "677"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Moscow",
+      "scheduled": "2020-02-10T21:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:00:00+0000",
+      "terminal": "T1",
+      "duration": "275",
+      "tailNumber": "VQBIW",
+      "statusText": "In Air",
+      "claim": "6",
+      "airportCode": "SVO",
+      "gate": "304",
+      "operatingCarrier": {
+        "airlineCode": "SU",
+        "airline": "Aeroflot Russian Airlines",
+        "flightNumber": "2590"
+      },
+      "status": "IA"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8981"
+        }
+      ],
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T21:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:05:00+0000",
+      "terminal": "T2",
+      "duration": "135",
+      "tailNumber": "EICVA",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "FRA",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "657"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8981"
+        },
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7911"
+        }
+      ],
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T21:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:05:00+0000",
+      "terminal": "T2",
+      "duration": "135",
+      "tailNumber": "EICVA",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "FRA",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "657"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7911"
+        }
+      ],
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T21:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:05:00+0000",
+      "terminal": "T2",
+      "duration": "135",
+      "tailNumber": "EICVA",
+      "statusText": "Scheduled",
+      "claim": "4",
+      "airportCode": "FRA",
+      "gate": "410",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "657"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Copenhagen",
+      "scheduled": "2020-02-10T21:05:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:05:00+0000",
+      "claim": "5",
+      "airportCode": "CPH",
+      "gate": "104",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "633"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T21:05:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:05:00+0000",
+      "claim": "9",
+      "airportCode": "STN",
+      "gate": "103",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "293"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8969"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "statusText": "Scheduled",
+      "claim": "5",
+      "airportCode": "AMS",
+      "gate": "412",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "611"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8969"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "statusText": "Scheduled",
+      "claim": "5",
+      "airportCode": "AMS",
+      "gate": "412",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "611"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "2107"
+        }
+      ],
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "terminal": "T2",
+      "duration": "70",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "BHX",
+      "gate": "408",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "277"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "2107"
+        }
+      ],
+      "city": "Birmingham",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "terminal": "T2",
+      "duration": "70",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "BHX",
+      "gate": "408",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "277"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Frankfurt am Main",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "tailNumber": "EIDAM",
+      "aircraft": "738",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "claim": "2",
+      "airportCode": "FRA",
+      "gate": "110",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "382"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Eindhoven",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "claim": "3",
+      "airportCode": "EIN",
+      "gate": "105",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1965"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Southend",
+      "scheduled": "2020-02-10T21:10:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:10:00+0000",
+      "claim": "7",
+      "airportCode": "SEN",
+      "gate": "107",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "2720"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Billund",
+      "scheduled": "2020-02-10T21:15:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:15:00+0000",
+      "claim": "4",
+      "airportCode": "BLL",
+      "gate": "113",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "6743"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8869"
+        }
+      ],
+      "city": "Glasgow",
+      "scheduled": "2020-02-10T21:20:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:20:00+0000",
+      "claim": "2",
+      "airportCode": "GLA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "3229"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "75",
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "3229"
+        }
+      ],
+      "city": "Glasgow",
+      "scheduled": "2020-02-10T21:20:00+0000",
+      "aircraft": "AT7",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:20:00+0000",
+      "claim": "2",
+      "airportCode": "GLA",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "8869"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T21:25:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:25:00+0000",
+      "claim": "8",
+      "airportCode": "LTN",
+      "gate": "109",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "341"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "90",
+      "city": "London",
+      "scheduled": "2020-02-10T21:30:00+0000",
+      "aircraft": "AR8",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:30:00+0000",
+      "claim": "2",
+      "airportCode": "LCY",
+      "gate": "301",
+      "terminal": "T2",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "291"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T21:35:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T21:35:00+0000",
+      "claim": "9",
+      "airportCode": "LGW",
+      "gate": "102",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "143"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8370"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T21:50:00+0000",
+      "aircraft": "E70",
+      "estimated": "2020-02-10T22:02:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYI",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4470"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8370"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T21:50:00+0000",
+      "aircraft": "E70",
+      "estimated": "2020-02-10T22:02:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GLCYI",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "LCY",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "4470"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8989"
+        }
+      ],
+      "city": "Düsseldorf",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:00:00+0000",
+      "terminal": "T2",
+      "duration": "120",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "DUS",
+      "gate": "407",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "699"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8989"
+        },
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7961"
+        }
+      ],
+      "city": "Düsseldorf",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:00:00+0000",
+      "terminal": "T2",
+      "duration": "120",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "DUS",
+      "gate": "407",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "699"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EY",
+          "airline": "Etihad Airways",
+          "flightNumber": "7961"
+        }
+      ],
+      "city": "Düsseldorf",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:00:00+0000",
+      "terminal": "T2",
+      "duration": "120",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "DUS",
+      "gate": "407",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "699"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "100",
+      "marketingCarriers": [
+        {
+          "airlineCode": "G3",
+          "airline": "Sky Express",
+          "flightNumber": "5566"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "tailNumber": "PHBGQ",
+      "aircraft": "73W",
+      "statusText": "Scheduled",
+      "airportCode": "AMS",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "939"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "100",
+      "marketingCarriers": [
+        {
+          "airlineCode": "G3",
+          "airline": "Sky Express",
+          "flightNumber": "5566"
+        },
+        {
+          "airlineCode": "KQ",
+          "airline": "Kenya Airways",
+          "flightNumber": "939"
+        },
+        {
+          "airlineCode": "MF",
+          "airline": "Xiamen Airlines",
+          "flightNumber": "9758"
+        },
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3408"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "tailNumber": "PHBGQ",
+      "aircraft": "73W",
+      "statusText": "Scheduled",
+      "airportCode": "AMS",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "939"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "100",
+      "marketingCarriers": [
+        {
+          "airlineCode": "KQ",
+          "airline": "Kenya Airways",
+          "flightNumber": "939"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "tailNumber": "PHBGQ",
+      "aircraft": "73W",
+      "statusText": "Scheduled",
+      "airportCode": "AMS",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "939"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "100",
+      "marketingCarriers": [
+        {
+          "airlineCode": "MF",
+          "airline": "Xiamen Airlines",
+          "flightNumber": "9758"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "tailNumber": "PHBGQ",
+      "aircraft": "73W",
+      "statusText": "Scheduled",
+      "airportCode": "AMS",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "939"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "100",
+      "marketingCarriers": [
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3408"
+        }
+      ],
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T22:00:00+0000",
+      "tailNumber": "PHBGQ",
+      "aircraft": "73W",
+      "statusText": "Scheduled",
+      "airportCode": "AMS",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "KL",
+        "airline": "KLM Royal Dutch Airlines",
+        "flightNumber": "939"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5979"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:05:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "411",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "179"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5979"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:05:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:05:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "LHR",
+      "gate": "411",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "179"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "115",
+      "marketingCarriers": [
+        {
+          "airlineCode": "AM",
+          "airline": "AeroMéxico",
+          "flightNumber": "6076"
+        },
+        {
+          "airlineCode": "G3",
+          "airline": "Sky Express",
+          "flightNumber": "5199"
+        },
+        {
+          "airlineCode": "KK",
+          "airline": "Atlasjet",
+          "flightNumber": "7448"
+        },
+        {
+          "airlineCode": "MU",
+          "airline": "China Eastern Airlines",
+          "flightNumber": "8295"
+        },
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3141"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "CDG",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1016"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "115",
+      "marketingCarriers": [
+        {
+          "airlineCode": "AM",
+          "airline": "AeroMéxico",
+          "flightNumber": "6076"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "CDG",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1016"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "115",
+      "marketingCarriers": [
+        {
+          "airlineCode": "G3",
+          "airline": "Sky Express",
+          "flightNumber": "5199"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "CDG",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1016"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "115",
+      "marketingCarriers": [
+        {
+          "airlineCode": "KK",
+          "airline": "Atlasjet",
+          "flightNumber": "7448"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "CDG",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1016"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "115",
+      "marketingCarriers": [
+        {
+          "airlineCode": "MU",
+          "airline": "China Eastern Airlines",
+          "flightNumber": "8295"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "CDG",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1016"
+      },
+      "status": "SC"
+    },
+    {
+      "duration": "115",
+      "marketingCarriers": [
+        {
+          "airlineCode": "SU",
+          "airline": "Aeroflot Russian Airlines",
+          "flightNumber": "3141"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "320",
+      "statusText": "Scheduled",
+      "claim": "6",
+      "airportCode": "CDG",
+      "terminal": "1",
+      "operatingCarrier": {
+        "airlineCode": "AF",
+        "airline": "Air France",
+        "flightNumber": "1016"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Nottingham",
+      "scheduled": "2020-02-10T22:15:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T22:15:00+0000",
+      "claim": "5",
+      "airportCode": "EMA",
+      "gate": "111",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "537"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Amsterdam",
+      "scheduled": "2020-02-10T22:25:00+0000",
+      "tailNumber": "EIDAM",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T22:25:00+0000",
+      "claim": "8",
+      "airportCode": "AMS",
+      "gate": "102",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "2999"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Edinburgh",
+      "scheduled": "2020-02-10T22:25:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T22:25:00+0000",
+      "claim": "4",
+      "airportCode": "EDI",
+      "gate": "109",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "819"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6763"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "321",
+      "estimated": "2020-02-10T23:09:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GEUXC",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "824"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "AA",
+          "airline": "American Airlines",
+          "flightNumber": "6763"
+        },
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8324"
+        },
+        {
+          "airlineCode": "JL",
+          "airline": "Japan Airlines Domestic",
+          "flightNumber": "7825"
+        },
+        {
+          "airlineCode": "S7",
+          "airline": "S7 Airlines",
+          "flightNumber": "4707"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "321",
+      "estimated": "2020-02-10T23:09:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GEUXC",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "824"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "EI",
+          "airline": "Aer Lingus",
+          "flightNumber": "8324"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "321",
+      "estimated": "2020-02-10T23:09:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GEUXC",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "824"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "JL",
+          "airline": "Japan Airlines Domestic",
+          "flightNumber": "7825"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "321",
+      "estimated": "2020-02-10T23:09:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GEUXC",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "824"
+      },
+      "status": "DL"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "S7",
+          "airline": "S7 Airlines",
+          "flightNumber": "4707"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "321",
+      "estimated": "2020-02-10T23:09:00+0000",
+      "terminal": "T1",
+      "duration": "80",
+      "tailNumber": "GEUXC",
+      "statusText": "Delayed",
+      "claim": "2",
+      "airportCode": "LHR",
+      "operatingCarrier": {
+        "airlineCode": "BA",
+        "airline": "British Airways",
+        "flightNumber": "824"
+      },
+      "status": "DL"
+    },
+    {
+      "city": "Nice",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "73G",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T23:20:00+0000",
+      "claim": "9",
+      "airportCode": "NCE",
+      "gate": "109",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "1959"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "Brussels",
+      "scheduled": "2020-02-10T22:35:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T22:35:00+0000",
+      "claim": "3",
+      "airportCode": "CRL",
+      "gate": "110",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "47"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8945"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:40:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:40:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "CDG",
+      "gate": "307",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "529"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "8945"
+        }
+      ],
+      "city": "Paris",
+      "scheduled": "2020-02-10T22:40:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:40:00+0000",
+      "terminal": "T2",
+      "duration": "105",
+      "statusText": "Scheduled",
+      "claim": "2",
+      "airportCode": "CDG",
+      "gate": "307",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "529"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5919"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:45:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "LGW",
+      "gate": "306",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "249"
+      },
+      "status": "SC"
+    },
+    {
+      "marketingCarriers": [
+        {
+          "airlineCode": "BA",
+          "airline": "British Airways",
+          "flightNumber": "5919"
+        }
+      ],
+      "city": "London",
+      "scheduled": "2020-02-10T22:45:00+0000",
+      "aircraft": "320",
+      "estimated": "2020-02-10T22:45:00+0000",
+      "terminal": "T2",
+      "duration": "80",
+      "statusText": "Scheduled",
+      "claim": "3",
+      "airportCode": "LGW",
+      "gate": "306",
+      "operatingCarrier": {
+        "airlineCode": "EI",
+        "airline": "Aer Lingus",
+        "flightNumber": "249"
+      },
+      "status": "SC"
+    },
+    {
+      "city": "London",
+      "scheduled": "2020-02-10T22:50:00+0000",
+      "aircraft": "73H",
+      "statusText": "Scheduled",
+      "estimated": "2020-02-10T22:50:00+0000",
+      "claim": "7",
+      "airportCode": "LGW",
+      "gate": "112",
+      "terminal": "T1",
+      "operatingCarrier": {
+        "airlineCode": "FR",
+        "airline": "Ryanair",
+        "flightNumber": "119"
+      },
+      "status": "SC"
+    }
+  ],
+  "flightDate": "2020-02-10",
+  "success": true,
+  "adi": "A",
+  "airportCode": "DUB"
+}
