@@ -6,7 +6,7 @@
 ## University: CIT
 
 
-[Please find the setup guide with all the instructions needed to set up the envionment](https://github.com/eamonfoy/cit-masters-thesis/blob/20b5e7ab8b34d0e6069b12d38ac91954d9afa738/Enviornment_Setup.pdf)
+[Please find the setup guide with all the instructions needed to set up the envionment](https://github.com/eamonfoy/thesis_source/blob/0d706fac4df5e9eacbf1c3eaecb7d5619b7a0130/Enviornment_Setup.pdf)
 
 
 The following is an explaination of the structure and what each directory contains:
