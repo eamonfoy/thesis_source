@@ -1,12 +1,15 @@
 cd aodb
+npm install
 sudo ./gradlew clean bootJar -Pprod -Pswagger -Pzipkin -Pchaos-monkey jibDockerBuild 
 cd ..
 
 cd flight
+npm install
 sudo ./gradlew clean bootJar -Pprod -Pswagger -Pzipkin -Pchaos-monkey jibDockerBuild
 cd ..
 
 cd weather
+npm install
 sudo ./gradlew clean bootJar -Pprod -Pswagger -Pzipkin -Pchaos-monkey jibDockerBuild 
 cd ..
 

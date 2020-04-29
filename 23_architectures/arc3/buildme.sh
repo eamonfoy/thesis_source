@@ -42,6 +42,7 @@ exit 0
 
 flight() {
     cd flight
+    npm install
     ./gradlew clean bootJar -Pprod jibDockerBuild
     cd ..
     docker image tag flight eamonfoy/flight
@@ -50,6 +51,7 @@ flight() {
 
 aodb() {
     cd aodb
+    npm install
     ./gradlew clean bootJar -Pprod jibDockerBuild 
     cd ..
     docker image tag aodb eamonfoy/aodb
@@ -58,6 +60,7 @@ aodb() {
 
 weather() {
     cd weather
+    npm install
     ./gradlew clean bootJar -Pprod  -Pchaos-monkey  jibDockerBuild 
     cd ..
     docker image tag weather eamonfoy/weather
